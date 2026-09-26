@@ -1,0 +1,2 @@
+Скопируйте index.html и папку assets в корень репозитория belaya-mgla-sova58.
+Затем Commit to main -> Push origin. Не загружайте исходный v225 HTML.
