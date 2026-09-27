@@ -108,3 +108,8 @@ V266
 - Reframed weaker-player Spirit reduction as a tactical option, not a hard rule.
 - Removed unverified monthly cadence statement.
 - No other content/design changes.
+
+
+V267
+- На странице «Снегоуборщики» Rocket V2 заменено на официальное русское название из клиента: «Ракета 2.0».
+- Уточнено первое описание использования при 95% очистки.
