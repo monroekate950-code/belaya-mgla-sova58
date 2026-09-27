@@ -121,3 +121,10 @@ V268 FINAL CLEANUP
 - В «Лабиринте» T10/T11/T12 заменены русскими ступенями войск.
 - Во всех HTML оставлен один <!DOCTYPE html>.
 - Все страницы подключены к site-v268.css и site-v268.js.
+
+
+V269
+- Mobile compositor fix for Android/MEmu.
+- Disabled backdrop-filter on mobile cards and sections.
+- Building card grids forced to one stable full-width column.
+- No content changes.
