@@ -55,3 +55,6 @@ v250: усилено визуальное отделение открытого 
 
 
 v251: мобильное боковое меню опущено на 30 px ниже. Остальное без изменений.
+
+
+v252: mobile only — removed old top-left title/corner icon from blue top strip and slightly reduced close-up scale. No content changes.
