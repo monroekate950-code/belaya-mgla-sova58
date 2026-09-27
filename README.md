@@ -58,3 +58,6 @@ v251: мобильное боковое меню опущено на 30 px ни�
 
 
 v252: mobile only — removed old top-left title/corner icon from blue top strip and slightly reduced close-up scale. No content changes.
+
+
+v253: уменьшено только открытое мобильное боковое меню: компактнее логотип, пункты, иконки и вертикальные интервалы. Масштаб самого сайта не менялся.
