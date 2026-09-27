@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Главная</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 
+<html lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>Белая Мгла • Охота на медведя</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 <!-- v119: merged approved header updates from v102-v104 onto v118 mobile branch -->
-<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="home" class="is-home-route">
-<div class="mobile-topbar" id="mobileTopbar" aria-label="Мобильная навигация">
-  <button type="button" id="mobileMenuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
-  <div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
-  <a href="index.html" aria-label="На главную">⌂</a>
+<link href="assets/site.css" rel="stylesheet"/><link href="favicon.ico" rel="icon" sizes="any"/><link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><link href="apple-touch-icon.png" rel="apple-touch-icon"/></head><body data-static-route="bear" class="is-bear-route">
+<div aria-label="Мобильная навигация" class="mobile-topbar" id="mobileTopbar">
+<button aria-expanded="false" aria-label="Открыть меню" id="mobileMenuToggle" type="button">☰</button>
+<div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
+<a aria-label="На главную" href="index.html">⌂</a>
 </div>
-<div class="mobile-nav-overlay" id="mobileNavOverlay" aria-hidden="true"></div>
+<div aria-hidden="true" class="mobile-nav-overlay" id="mobileNavOverlay"></div>
 <div aria-hidden="true" class="fx-snow"><span class="snowflake sm" style="left:63.3vw;top:2.4vh;animation-duration:10.5s;animation-delay:-3.8s;--drift:-39px"></span><span class="snowflake" style="left:58.5vw;top:3.1vh;animation-duration:8.8s;animation-delay:-4.0s;--drift:-59px"></span><span class="snowflake sm" style="left:70.9vw;top:67.3vh;animation-duration:11.8s;animation-delay:-7.6s;--drift:6px"></span><span class="snowflake" style="left:75.1vw;top:15.3vh;animation-duration:11.8s;animation-delay:-4.7s;--drift:-10px"></span><span class="snowflake sm" style="left:10.1vw;top:36.5vh;animation-duration:11.2s;animation-delay:-5.8s;--drift:2px"></span><span class="snowflake" style="left:72.2vw;top:51.5vh;animation-duration:16.8s;animation-delay:-6.4s;--drift:10px"></span><span class="snowflake sm" style="left:57.2vw;top:67.6vh;animation-duration:8.4s;animation-delay:-3.9s;--drift:9px"></span><span class="snowflake" style="left:84.7vw;top:83.2vh;animation-duration:11.4s;animation-delay:-7.7s;--drift:28px"></span><span class="snowflake" style="left:36.6vw;top:20.1vh;animation-duration:10.4s;animation-delay:-15.9s;--drift:-47px"></span><span class="snowflake" style="left:52.9vw;top:23.5vh;animation-duration:12.2s;animation-delay:-4.6s;--drift:-9px"></span><span class="snowflake lg" style="left:83.4vw;top:74.5vh;animation-duration:10.1s;animation-delay:-0.5s;--drift:15px"></span><span class="snowflake" style="left:26.5vw;top:20.3vh;animation-duration:16.5s;animation-delay:-14.9s;--drift:15px"></span><span class="snowflake" style="left:64.9vw;top:38.0vh;animation-duration:16.2s;animation-delay:-7.8s;--drift:2px"></span><span class="snowflake" style="left:24.4vw;top:53.9vh;animation-duration:10.4s;animation-delay:-9.9s;--drift:37px"></span><span class="snowflake sm" style="left:21.7vw;top:95.8vh;animation-duration:12.6s;animation-delay:-1.5s;--drift:-53px"></span><span class="snowflake lg" style="left:15.1vw;top:15.4vh;animation-duration:14.1s;animation-delay:-10.1s;--drift:33px"></span><span class="snowflake sm" style="left:59.0vw;top:44.9vh;animation-duration:10.3s;animation-delay:-9.4s;--drift:-63px"></span><span class="snowflake" style="left:67.5vw;top:51.5vh;animation-duration:10.4s;animation-delay:-10.9s;--drift:-37px"></span><span class="snowflake" style="left:43.0vw;top:43.6vh;animation-duration:16.6s;animation-delay:-14.9s;--drift:2px"></span><span class="snowflake" style="left:50.3vw;top:10.2vh;animation-duration:13.6s;animation-delay:-14.3s;--drift:64px"></span><span class="snowflake" style="left:15.1vw;top:73.2vh;animation-duration:12.9s;animation-delay:-13.2s;--drift:-65px"></span><span class="snowflake" style="left:48.4vw;top:10.7vh;animation-duration:11.3s;animation-delay:-16.8s;--drift:13px"></span><span class="snowflake sm" style="left:5.7vw;top:84.3vh;animation-duration:16.5s;animation-delay:-1.5s;--drift:59px"></span><span class="snowflake" style="left:96.8vw;top:51.1vh;animation-duration:9.1s;animation-delay:-11.2s;--drift:-23px"></span><span class="snowflake" style="left:52.2vw;top:58.2vh;animation-duration:16.7s;animation-delay:-15.8s;--drift:-14px"></span><span class="snowflake sm" style="left:39.5vw;top:64.5vh;animation-duration:11.4s;animation-delay:-15.3s;--drift:50px"></span><span class="snowflake sm" style="left:24.5vw;top:6.1vh;animation-duration:8.2s;animation-delay:-9.4s;--drift:-9px"></span><span class="snowflake sm" style="left:7.0vw;top:60.6vh;animation-duration:10.1s;animation-delay:-15.4s;--drift:19px"></span><span class="snowflake" style="left:50.9vw;top:26.7vh;animation-duration:12.4s;animation-delay:-9.2s;--drift:56px"></span><span class="snowflake" style="left:77.7vw;top:77.5vh;animation-duration:9.7s;animation-delay:-1.6s;--drift:45px"></span><span class="snowflake sm" style="left:41.9vw;top:44.8vh;animation-duration:14.6s;animation-delay:-11.4s;--drift:-40px"></span><span class="snowflake lg" style="left:39.9vw;top:32.6vh;animation-duration:15.8s;animation-delay:-4.2s;--drift:-17px"></span><span class="snowflake lg" style="left:13.9vw;top:17.6vh;animation-duration:12.2s;animation-delay:-14.9s;--drift:-46px"></span><span class="snowflake sm" style="left:80.0vw;top:82.2vh;animation-duration:8.9s;animation-delay:-11.1s;--drift:-62px"></span><span class="snowflake lg" style="left:91.7vw;top:81.5vh;animation-duration:9.5s;animation-delay:-8.3s;--drift:-11px"></span><span class="snowflake" style="left:89.3vw;top:15.8vh;animation-duration:8.0s;animation-delay:-6.6s;--drift:51px"></span><span class="snowflake" style="left:41.9vw;top:91.9vh;animation-duration:17.0s;animation-delay:-9.4s;--drift:59px"></span><span class="snowflake" style="left:18.8vw;top:20.9vh;animation-duration:8.5s;animation-delay:-12.5s;--drift:-50px"></span><span class="snowflake sm" style="left:5.7vw;top:56.1vh;animation-duration:12.5s;animation-delay:-14.5s;--drift:-25px"></span><span class="snowflake lg" style="left:95.1vw;top:7.7vh;animation-duration:9.7s;animation-delay:-10.1s;--drift:-5px"></span><span class="snowflake lg" style="left:11.9vw;top:85.5vh;animation-duration:10.2s;animation-delay:-10.1s;--drift:-45px"></span><span class="snowflake" style="left:65.1vw;top:54.3vh;animation-duration:10.8s;animation-delay:-4.4s;--drift:15px"></span><span class="snowflake sm" style="left:26.3vw;top:12.6vh;animation-duration:13.8s;animation-delay:-7.8s;--drift:-47px"></span><span class="snowflake" style="left:45.4vw;top:95.9vh;animation-duration:17.0s;animation-delay:-1.2s;--drift:-11px"></span><span class="snowflake" style="left:13.1vw;top:33.5vh;animation-duration:8.6s;animation-delay:-4.2s;--drift:7px"></span><span class="snowflake" style="left:43.4vw;top:52.1vh;animation-duration:10.7s;animation-delay:-16.7s;--drift:-63px"></span><span class="snowflake" style="left:92.2vw;top:9.9vh;animation-duration:15.9s;animation-delay:-4.5s;--drift:-38px"></span><span class="snowflake lg" style="left:27.0vw;top:58.1vh;animation-duration:14.5s;animation-delay:-3.5s;--drift:2px"></span><span class="snowflake sm" style="left:24.9vw;top:87.2vh;animation-duration:8.5s;animation-delay:-10.8s;--drift:5px"></span><span class="snowflake lg" style="left:0.4vw;top:74.0vh;animation-duration:13.7s;animation-delay:-4.5s;--drift:48px"></span><span class="snowflake sm" style="left:55.5vw;top:10.7vh;animation-duration:16.5s;animation-delay:-11.7s;--drift:-27px"></span><span class="snowflake" style="left:82.6vw;top:55.9vh;animation-duration:9.3s;animation-delay:-2.2s;--drift:13px"></span><span class="snowflake" style="left:89.0vw;top:76.4vh;animation-duration:15.7s;animation-delay:-15.3s;--drift:-12px"></span><span class="snowflake" style="left:66.0vw;top:34.0vh;animation-duration:13.0s;animation-delay:-14.9s;--drift:-26px"></span><span class="snowflake" style="left:85.6vw;top:93.7vh;animation-duration:15.3s;animation-delay:-15.0s;--drift:-59px"></span><span class="snowflake" style="left:72.9vw;top:31.9vh;animation-duration:16.4s;animation-delay:-13.6s;--drift:-2px"></span><span class="snowflake" style="left:15.8vw;top:67.3vh;animation-duration:11.4s;animation-delay:-0.7s;--drift:55px"></span><span class="snowflake" style="left:19.8vw;top:88.2vh;animation-duration:11.1s;animation-delay:-13.9s;--drift:-7px"></span><span class="snowflake" style="left:2.3vw;top:18.5vh;animation-duration:11.0s;animation-delay:-14.7s;--drift:6px"></span><span class="snowflake sm" style="left:63.5vw;top:38.4vh;animation-duration:16.8s;animation-delay:-9.1s;--drift:-58px"></span></div><div aria-hidden="true" class="fx-feathers"><span class="feather" style="left:8vw;top:25.7vh;animation-duration:29.3s;animation-delay:-8.4s"></span><span class="feather" style="left:16vw;top:3.0vh;animation-duration:27.7s;animation-delay:-6.6s"></span><span class="feather" style="left:27vw;top:62.8vh;animation-duration:30.0s;animation-delay:-13.4s"></span><span class="feather lg" style="left:36vw;top:56.9vh;animation-duration:33.8s;animation-delay:-8.8s"></span><span class="feather" style="left:48vw;top:81.7vh;animation-duration:24.6s;animation-delay:-19.7s"></span><span class="feather sm" style="left:59vw;top:47.2vh;animation-duration:32.2s;animation-delay:-16.4s"></span><span class="feather sm" style="left:71vw;top:3.6vh;animation-duration:24.6s;animation-delay:-22.0s"></span><span class="feather lg" style="left:83vw;top:21.6vh;animation-duration:33.9s;animation-delay:-10.2s"></span><span class="feather" style="left:91vw;top:11.9vh;animation-duration:28.2s;animation-delay:-3.2s"></span></div>
 <header class="hero"><div class="hero-inner"><div class="ui-route-hero">
-
 <div class="ui-route-copy">
 <h1 id="uiRouteTitle">Белая Мгла</h1>
 <div class="ui-route-subtitle" id="uiRouteSubtitle">Библиотека гайдов</div>
 <p id="uiRouteDescription">Гайды, события, ресурсы и полезные подсказки по игре.</p>
 </div>
-
 </div></div></header><div class="ui-tabsbar">
 <button class="active" data-ui-tab="0">О сайте</button>
 <button data-ui-tab="1">Как пользоваться</button>
@@ -25,14 +23,85 @@
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link active" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
-
-<main id="appMain"><div class="route-page active" data-route="home"><div class="guide-page-v69">
-<div class="guide-hero"><div class="guide-hero-text"><h1>Главная</h1><p>Проверенные гайды, короткие памятки и полезные подсказки по Белой Мгле.</p></div></div>
-<div class="guide-topics"><span class="topic-pill"> Ежедневная памятка</span><span class="topic-pill"> Как пользоваться сайтом</span><span class="topic-pill"> Для альянса</span></div>
-<section class="guide-section"><h2>Добро пожаловать в «Белую Мглу»</h2><p>Здесь собраны проверенные гайды, короткие памятки и полезные подсказки по игре. Только самое нужное: что делать, что беречь, куда вкладывать ресурсы и на что обратить внимание.</p><p><b>Автор — Sova.</b> Материалы сделаны так, чтобы нужную информацию можно было быстро найти самому или отправить союзникам.</p></section><section class="guide-section"><h2> Ежедневная памятка</h2><div class="mini-grid"><div class="mini-card"><b> Арена</b><br>Если хочешь сохранить более высокое место к выдаче дневных наград, последние попытки часто выгоднее проводить примерно за <b>5–10 минут до ежедневного сброса</b>. Так остаётся меньше времени, чтобы другие игроки успели опустить тебя в рейтинге.</div><div class="mini-card"><b> Маяк</b><br>Проверяй задания Маяка несколько раз в день. Новые задания обычно появляются в <b>00:00, 08:00 и 16:00 по серверному времени</b>. Не оставляй Маяк заполненным надолго, чтобы не терять следующие задания и награды.</div><div class="mini-card"><b> Ресурсы</b><br>Не спеши тратить редкие материалы, ускорения и ценные предметы развития. Если прокачка не срочная, часто выгоднее дождаться подходящего события или его этапа и получить дополнительные награды за те же расходы.</div></div></section><section class="guide-section"><h2> Последние изменения</h2><ul class="guide-list"><li><b>Эксперты:</b> обновлены гайды по экспертам и приоритетам их прокачки.</li><li><b>Маяк:</b> отдельный гайд по ежедневным заданиям, наградам и дополнительной разведке.</li><li><b>Письма:</b> добавлен раздел с важными игровыми письмами и отчётами.</li><li><b>Новые категории:</b> Лабиринт, Освоение и Остров.</li></ul></section><section class="guide-section"><h2> Как пользоваться сайтом</h2><div class="mini-grid"><div class="mini-card"><b>Найди нужную тему</b><br>Все основные разделы находятся в меню слева.</div><div class="mini-card"><b>Открой нужный блок</b><br>Гайды разбиты на небольшие части, чтобы ответ можно было найти за несколько секунд.</div><div class="mini-card"><b>Используй помощника</b><br>Если не знаешь, где искать информацию, задай вопрос помощнику в правом нижнем углу.</div></div></section><section class="guide-section"><h2> Для альянса</h2><p>Часть гайдов сделана специально в коротком формате, чтобы их было удобно отправлять в чат альянса. Названия, цифры и игровые формулировки проверяются перед публикацией.</p><div class="guide-callout tip"><b>Главный принцип:</b> точность важнее красивого оформления. Если информация ещё не подтверждена, это будет указано отдельно.</div></section><section class="guide-section"><h2> Об авторе</h2><p>Автор — Sova. Библиотека постепенно пополняется новыми гайдами, событиями и полезными заметками по мере развития игры.</p></section>
-<div class="v69-footer">Белая Мгла • Автор - Sova</div>
-</div></div></main><script>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"/><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png"/>Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png"/>Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png"/>Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png"/>Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png"/>Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png"/>Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png"/>Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png"/>Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span aria-hidden="true" class="sidebar-color-icon state-position-menu-icon">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png"/>Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png"/>Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png"/>Питомцы</a><a class="route-link active" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png"/>События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"/><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<main id="appMain"><div class="route-page active" data-route="bear"><div class="page-tools"><a class="route-link" href="index.html">← На главную</a><a class="route-link" href="events.html">Все события</a></div><section class="section" id="bear" style="padding-top:8px"><div class="bear-intro"><div class="bear-intro-text"><h3>Охота на медведя</h3><p>Шпаргалка для тех, кто присоединяется к чужому рейду. Самое важное здесь: правильно выбрать первого героя.</p></div></div></section><section class="section bear-rally-leader-guide">
+<h3> СОЗДАТЕЛЬ РЕЙДА</h3>
+<p>У создателя рейда работают <b>экспедиционные навыки всех трёх героев</b>.</p>
+<p>Это может быть до <b>9 экспедиционных навыков</b>, если у каждого героя открыты все три.</p>
+<p>Поэтому для собственного рейда важно выбирать героев не только по общей силе.</p>
+<p>Особенно полезны навыки, которые повышают:</p>
+<ul class="tip-list"><li>атаку;</li><li>урон;</li><li>смертоносность;</li><li>другие атакующие характеристики армии.</li></ul>
+<p>Защитные навыки и лечение против медведя обычно дают намного меньше пользы.</p>
+<div class="rule good"><b> Совет</b><p>Сравнивайте отчёты нескольких рейдов. Более сильная по цифре тройка героев не всегда наносит больше урона.</p></div>
+<h3> СОСТАВ ВОЙСК</h3>
+<p>Против медведя основную часть урона обычно наносят <b>стрелки</b>, поэтому их долю можно увеличивать.</p>
+<p>Хорошие варианты для тестирования:</p>
+<div class="rule-grid"><div class="rule good"><b>10 / 10 / 80</b><p>10% пехоты / 10% копейщиков / 80% стрелков</p></div><div class="rule good"><b>10 / 30 / 60</b><p>10% пехоты / 30% копейщиков / 60% стрелков</p></div></div>
+<p>Это не обязательная формула.</p>
+<p>Лучший состав зависит от вашей текущей прокачки, героев и войск, поэтому ориентируйтесь на реальные отчёты охоты в <b>58 государстве</b>.</p>
+<p>Чем больше войск помещается в рейд, тем выше потенциальный общий урон.</p>
+<h3> КАК ПРАВИЛЬНО ПРИСОЕДИНЯТЬСЯ К РЕЙДУ</h3>
+<p>Для участника самое важное — <b>герой, поставленный первым</b>.</p>
+<p>Из вашей тройки героев в бонусы общего рейда попадает <b>первый экспедиционный навык первого героя</b>.</p>
+<p>Поэтому перед отправкой отряда всегда проверяйте, кто стоит на первой позиции.</p>
+<h3>Подходящие первые герои</h3>
+<p>Для нашего государства используем уже подтверждённых героев:</p>
+<ul class="tip-list bear-first-hero-list"><li><span aria-hidden="true" class="catalog-game-icon catalog-hero-icon ci-hero_jessie"></span><b>Джесси</b></li><li><span aria-hidden="true" class="catalog-game-icon catalog-hero-icon ci-hero_jasser"></span><b>Джассер</b></li><li><span aria-hidden="true" class="catalog-game-icon catalog-hero-icon ci-hero_jeronimo"></span><b>Джеронимо</b></li><li><span aria-hidden="true" class="catalog-game-icon catalog-hero-icon ci-hero_seoyoon"></span><b>Со-Юн</b></li></ul>
+<p>Их полезные атакующие навыки помогают увеличить общий урон рейда.</p>
+<p>Героев поздних поколений сюда не добавляем, пока они не подтверждены для <b>58 государства</b>.</p>
+<h3> КАК РАБОТАЮТ НАВЫКИ УЧАСТНИКОВ</h3>
+<p>В общий рейд могут попасть <b>до четырёх первых экспедиционных навыков присоединившихся игроков</b>.</p>
+<p>Посмотреть активные навыки можно через <b>жёлтый флажок рейда</b>.</p>
+<p>Игра учитывает не просто первых четырёх вошедших игроков.</p>
+<p>Большое значение имеет <b>уровень первого навыка героя</b>.</p>
+<p>Более высокий навык может занять место более слабого.</p>
+<div class="rule warn"><b>Например</b><p>Если в рейде стоит полезный навык 4 уровня, а позже входит герой с навыком 5 уровня, новый навык может получить приоритет.</p></div>
+<p>Поэтому особенно важно не отправлять первым героя с сильным, но бесполезным для медведя навыком.</p>
+<div class="rule warn"><b> Неправильный первый герой</b><p>Герой с высоким уровнем бесполезного навыка способен занять один из четырёх важных слотов и снизить результат всего рейда.</p></div>
+<h3> СКЛАДЫВАНИЕ БОНУСОВ</h3>
+<p>Подходящие атакующие навыки участников могут работать одновременно.</p>
+<p>Поэтому рейд особенно эффективен, когда в нём собрано несколько правильных первых героев.</p>
+<div class="savebox"><b>Идеальная ситуация:</b><br/><br/><b>сильный создатель рейда + четыре полезных первых навыка участников.</b></div>
+<h3> ВТОРОЙ И ТРЕТИЙ ГЕРОЙ</h3>
+<p>У присоединившегося игрока навыки второго и третьего героя <b>не входят в четыре основных бонуса участников</b>.</p>
+<p>Поэтому при присоединении главное внимание уделяем именно <b>первому герою</b>.</p>
+<p>Второго и третьего героя можно подбирать с учётом количества отправляемых войск и других доступных вам бонусов.</p>
+<h3> ПЕРЕД ОТПРАВКОЙ ОТРЯДА</h3>
+<p>Перед нажатием кнопки присоединения проверьте:</p>
+<ul class="tip-list"><li> правильного первого героя;</li><li> количество отправляемых войск;</li><li> состав войск;</li><li> свободное место в рейде;</li><li> активные бонусы, доступные вашему городу.</li></ul>
+<p>Если правильного первого героя уже нет, лучше не отправлять случайного героя с высоким бесполезным навыком.</p>
+<h3> УСИЛЕНИЕ ЛОВУШКИ</h3>
+<p>Ловушку медведя можно усиливать с помощью специальных предметов.</p>
+<p>Усиление имеет <b>5 уровней</b>.</p>
+<div class="savebox"><b>Максимальный бонус: +25% атаки против медведя.</b></div>
+<p>Чем сильнее улучшена ловушка, тем больше урона сможет наносить альянс во время события.</p>
+<div class="rule warn"><b> Источник получения предметов пока отдельно не фиксируем</b><p>Внешние источники расходятся. Для сайта используем только информацию, подтверждённую русским интерфейсом <b>58 государства</b>.</p></div>
+<h3> ПИТОМЦЫ</h3>
+<p>Перед охотой можно использовать доступные в вашем государстве навыки питомцев, которые помогают вашему собственному отряду.</p>
+<p>Особенно полезны бонусы, связанные с:</p>
+<ul class="tip-list"><li>вместимостью армии;</li><li>скоростью марша;</li><li>боевыми характеристиками войск.</li></ul>
+<p>При этом не следует считать, что обычный бонус питомца одного игрока автоматически усиливает весь рейд.</p>
+<p>Используем только питомцев, которые уже доступны в <b>58 государстве</b>.</p>
+<h3> РАСПОЛОЖЕНИЕ ГОРОДА</h3>
+<p>Во время охоты важно сократить время между рейдами.</p>
+<p>Поэтому участникам желательно располагать города <b>как можно ближе к ловушке</b>.</p>
+<p>Чем быстрее войска возвращаются и снова доходят до медведя, тем больше рейдов можно успеть провести за время события.</p>
+<h3> СОХРАНЁННЫЕ ОТРЯДЫ</h3>
+<p>Перед началом охоты удобно заранее сделать несколько сохранённых отрядов.</p>
+<div class="bear-march-presets"><div class="bear-preset"><b>Отряд 1</b><span>Для создания собственного рейда.</span></div><div class="bear-preset"><b>Отряды 2–5</b><span>Для присоединения к рейдам с правильными первыми героями.</span></div></div>
+<p>Это позволяет быстрее отправлять войска и не терять время на перестановку героев во время события.</p>
+<div class="savebox bear-leader-summary"><b> ГЛАВНОЕ</b><br/><br/>
+<b>Создаёте рейд</b> — важны все три ваших героя и их экспедиционные навыки.<br/><br/>
+<b>Присоединяетесь</b> — главное поставить правильного героя первым.<br/><br/>
+ В рейде работает до <b>4 первых навыков участников</b>.<br/><br/>
+ Против медведя обычно выгодно увеличивать долю стрелков.<br/><br/>
+ Не ставьте первым случайного героя с высоким бесполезным навыком.<br/><br/>
+ Усиливайте ловушку.<br/><br/>
+ Ставьте город ближе к медведю.<br/><br/>
+ Используйте заранее сохранённые отряды.<br/><br/>
+Главная цель охоты — не просто отправить как можно более сильную армию, а собрать <b>правильные бонусы всего рейда</b>.</div>
+</section>
+<div class="footer">Белая Мгла • Автор - Sova</div></div></main><script>
 (function(){
   const items=document.querySelectorAll('section,.event-card,.guide-card,.expert-card,.thumb-card,.rule,.savebox,.callout');
   if(!('IntersectionObserver' in window)){items.forEach(x=>x.classList.add('in-view'));return;}
@@ -77,13 +146,13 @@
 <div class="hint" id="sovaHint">Нажми на сову, и она расскажет подсказку по игре.</div>
 <div class="sova-search" id="sovaSearch">
 <div class="sova-search-row">
-<input aria-label="Поиск по гайдам" autocomplete="off" id="sovaSearchInput" placeholder="Что найти в гайдах?" type="search">
+<input aria-label="Поиск по гайдам" autocomplete="off" id="sovaSearchInput" placeholder="Что найти в гайдах?" type="search"/>
 <button aria-label="Найти" id="sovaSearchButton" type="button">Найти</button>
 </div>
 <div aria-live="polite" class="sova-search-results" id="sovaSearchResults"></div>
 </div>
 </div>
-<button aria-label="Помощник" class="sova-btn" id="sovaBtn"><span class="sova-character"><img alt="Белая сова Sova" class="sova-character-img" decoding="async" draggable="false" id="sovaOwlImg" src="assets/img_3f4e1ca66eb153fe.png"></span></button>
+<button aria-label="Помощник" class="sova-btn" id="sovaBtn"><span class="sova-character"><img alt="Белая сова Sova" class="sova-character-img" decoding="async" draggable="false" id="sovaOwlImg" src="assets/img_3f4e1ca66eb153fe.png"/></span></button>
 </div>
 <script>
 (function(){
@@ -547,7 +616,7 @@
     firstSection.parentNode.insertBefore(tools,firstSection);
     const nav=document.createElement('nav'); nav.className='guide-mini-nav'; nav.setAttribute('aria-label','Навигация по разделу');
     const heads=Array.from(page.querySelectorAll(':scope > .section > h3')).slice(0,7);
-    heads.forEach(function(h,i){if(!h.id)h.id=safeId(route+'-'+i+'-'+h.textContent);const a=document.createElement('a');a.href='#'+route;a.dataset.scrollTarget=h.id;a.textContent=h.textContent.trim().replace(/^[^\p{L}\p{N}]+/u,'').slice(0,34);a.addEventListener('click',function(e){e.preventDefault();document.getElementById(this.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})});nav.appendChild(a)});
+    heads.forEach(function(h,i){if(!h.id)h.id=safeId(route+'-'+i+'-'+h.textContent);const a=document.createElement('a');a.href='#'+h.id;a.dataset.scrollTarget=h.id;a.textContent=h.textContent.trim().replace(/^[^\p{L}\p{N}]+/u,'').slice(0,34);a.addEventListener('click',function(e){e.preventDefault();document.getElementById(this.dataset.scrollTarget)?.scrollIntoView({behavior:'smooth',block:'start'})});nav.appendChild(a)});
     if(heads.length>1) tools.insertAdjacentElement('afterend',nav);
   });
 
@@ -803,8 +872,6 @@
   ['buildings-before-fire','buildings-after-fire'].forEach(r=>addBackLink(r,'#buildings','← Все здания'));
 })();
 </script>
-
-
 <script id="v113-mobile-nav-script">
 (function(){
   var btn=document.getElementById('mobileMenuToggle');
@@ -828,8 +895,6 @@
   window.addEventListener('resize',function(){if(window.innerWidth>820) setOpen(false);});
 })();
 </script>
-
-
 <script id="v124-mobile-sections-direct-fix">
 (function(){
   var sectionsBtn=document.getElementById('mobileSectionsBtn');
@@ -849,7 +914,6 @@
   sectionsBtn.addEventListener('touchend',function(e){e.preventDefault();openSections();},{passive:false});
 })();
 </script>
-
 <script id="v173-resource-speedup-inline-fix">
 (function(){
   const classes=['ci-resource_meat','ci-resource_wood','ci-resource_coal','ci-resource_iron','ci-speedup','ci-speedup_build','ci-speedup_research','ci-speedup_training'];
@@ -860,7 +924,6 @@
   });
 })();
 </script>
-
 <script id="v177-events-emoji">
 (function(){
   const eventsMap={
@@ -924,7 +987,6 @@
   });
 })();
 </script>
-
 <script id="v182-bear-route-owl-toggle">
 (function(){
   function syncBearPage(){
@@ -936,7 +998,6 @@
   window.addEventListener('popstate',syncBearPage);
 })();
 </script>
-
 <script id="v184-event-text-visibility-fix">
 (function(){
   const eventRoutes=new Set([

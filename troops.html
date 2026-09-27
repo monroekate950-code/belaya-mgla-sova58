@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Главная</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
+<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Войска</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 
 <!-- v119: merged approved header updates from v102-v104 onto v118 mobile branch -->
-<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="home" class="is-home-route">
+<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="troops" class="is-troops-route">
 <div class="mobile-topbar" id="mobileTopbar" aria-label="Мобильная навигация">
   <button type="button" id="mobileMenuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
   <div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
@@ -25,14 +25,159 @@
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link active" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link active" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
 
-<main id="appMain"><div class="route-page active" data-route="home"><div class="guide-page-v69">
-<div class="guide-hero"><div class="guide-hero-text"><h1>Главная</h1><p>Проверенные гайды, короткие памятки и полезные подсказки по Белой Мгле.</p></div></div>
-<div class="guide-topics"><span class="topic-pill"> Ежедневная памятка</span><span class="topic-pill"> Как пользоваться сайтом</span><span class="topic-pill"> Для альянса</span></div>
-<section class="guide-section"><h2>Добро пожаловать в «Белую Мглу»</h2><p>Здесь собраны проверенные гайды, короткие памятки и полезные подсказки по игре. Только самое нужное: что делать, что беречь, куда вкладывать ресурсы и на что обратить внимание.</p><p><b>Автор — Sova.</b> Материалы сделаны так, чтобы нужную информацию можно было быстро найти самому или отправить союзникам.</p></section><section class="guide-section"><h2> Ежедневная памятка</h2><div class="mini-grid"><div class="mini-card"><b> Арена</b><br>Если хочешь сохранить более высокое место к выдаче дневных наград, последние попытки часто выгоднее проводить примерно за <b>5–10 минут до ежедневного сброса</b>. Так остаётся меньше времени, чтобы другие игроки успели опустить тебя в рейтинге.</div><div class="mini-card"><b> Маяк</b><br>Проверяй задания Маяка несколько раз в день. Новые задания обычно появляются в <b>00:00, 08:00 и 16:00 по серверному времени</b>. Не оставляй Маяк заполненным надолго, чтобы не терять следующие задания и награды.</div><div class="mini-card"><b> Ресурсы</b><br>Не спеши тратить редкие материалы, ускорения и ценные предметы развития. Если прокачка не срочная, часто выгоднее дождаться подходящего события или его этапа и получить дополнительные награды за те же расходы.</div></div></section><section class="guide-section"><h2> Последние изменения</h2><ul class="guide-list"><li><b>Эксперты:</b> обновлены гайды по экспертам и приоритетам их прокачки.</li><li><b>Маяк:</b> отдельный гайд по ежедневным заданиям, наградам и дополнительной разведке.</li><li><b>Письма:</b> добавлен раздел с важными игровыми письмами и отчётами.</li><li><b>Новые категории:</b> Лабиринт, Освоение и Остров.</li></ul></section><section class="guide-section"><h2> Как пользоваться сайтом</h2><div class="mini-grid"><div class="mini-card"><b>Найди нужную тему</b><br>Все основные разделы находятся в меню слева.</div><div class="mini-card"><b>Открой нужный блок</b><br>Гайды разбиты на небольшие части, чтобы ответ можно было найти за несколько секунд.</div><div class="mini-card"><b>Используй помощника</b><br>Если не знаешь, где искать информацию, задай вопрос помощнику в правом нижнем углу.</div></div></section><section class="guide-section"><h2> Для альянса</h2><p>Часть гайдов сделана специально в коротком формате, чтобы их было удобно отправлять в чат альянса. Названия, цифры и игровые формулировки проверяются перед публикацией.</p><div class="guide-callout tip"><b>Главный принцип:</b> точность важнее красивого оформления. Если информация ещё не подтверждена, это будет указано отдельно.</div></section><section class="guide-section"><h2> Об авторе</h2><p>Автор — Sova. Библиотека постепенно пополняется новыми гайдами, событиями и полезными заметками по мере развития игры.</p></section>
-<div class="v69-footer">Белая Мгла • Автор - Sova</div>
-</div></div></main><script>
+<main id="appMain"><div class="route-page active" data-route="troops">
+<div class="guide-page-v69">
+  <div class="guide-hero"><div class="guide-hero-text">
+    <h1>Войска</h1>
+    <p>Типы войск, ступени развития, Кристаллы огня, обучение и повышение.</p>
+  </div></div>
+
+  <div class="guide-topics">
+    <span class="topic-pill"> Пехота</span>
+    <span class="topic-pill">Копейщики</span>
+    <span class="topic-pill"> Стрелки</span>
+    <span class="topic-pill"> Кристаллы огня</span>
+    <span class="topic-pill"> 11-я /  12-я ступень</span>
+  </div>
+
+  <section class="guide-section">
+    <h2> Три типа войск</h2>
+    <p>Армия в «Белой Мгле: Выживание» состоит из трёх типов войск:</p>
+    <div class="mini-grid">
+      <div class="mini-card"><b> Пехота</b><br>Передняя линия. Принимает на себя основной урон и защищает остальные войска.</div>
+      <div class="mini-card"><b>Копейщики</b><br>Средняя линия. Наносят урон и в некоторых случаях способны атаковать стрелков противника в заднем ряду.</div>
+      <div class="mini-card"><b> Стрелки</b><br>Задняя линия. Наносят высокий урон, пока пехота удерживает передний ряд.</div>
+    </div>
+  </section>
+
+  <section class="guide-section">
+    <h2> Преимущество типов войск</h2>
+    <div class="guide-callout tip"><b> Пехота → Копейщики →  Стрелки →  Пехота</b></div>
+    <p>Пехота сильнее против копейщиков. Копейщики сильнее против стрелков. Стрелки сильнее против пехоты.</p>
+    <div class="guide-callout warn"><b>Важно:</b> в <b>Освоении</b> классовое преимущество работает: <b>Пехота → Копейщики → Стрелки → Пехота</b>, <b>+10% урона</b>. На <b>Арене</b> эта контр-система не применяется.</div>
+  </section>
+
+  <section class="guide-section">
+    <h2> Обычные ступени войск</h2>
+    <p>До поздней игры войска развиваются от <b>1-й до 10-й ступени</b>.</p>
+    <p>Высокие ступени открываются при развитии соответствующего военного лагеря:</p>
+    <div class="mini-grid">
+      <div class="mini-card"><b>4-я ступень</b><br>Топка 11</div>
+      <div class="mini-card"><b>5-я ступень</b><br>Топка 13</div>
+      <div class="mini-card"><b>6-я ступень</b><br>Топка 16</div>
+      <div class="mini-card"><b>7-я ступень</b><br>Топка 19</div>
+      <div class="mini-card"><b>8-я ступень</b><br>Топка 22</div>
+      <div class="mini-card"><b>9-я ступень</b><br>Топка 26</div>
+      <div class="mini-card"><b>10-я ступень</b><br>Топка 30</div>
+    </div>
+    <p>Чем выше ступень, тем сильнее войска, но тем больше ресурсов и времени требуется для их обучения.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Повышение старых войск</h2>
+    <p>Когда военный лагерь достигает <b>13 уровня</b>, становится доступно повышение войск более низких ступеней.</p>
+    <p>На самом раннем этапе сначала полезно создать достаточно армии, чтобы заполнять доступные очереди походов.</p>
+    <p>Когда войск уже достаточно, старые низкие ступени выгодно постепенно <b>повышать до самой высокой доступной</b> вместо того, чтобы постоянно держать большую массу слабых войск.</p>
+    <div class="guide-callout tip"><b> События:</b> массовое обучение и повышение удобно совмещать с событиями, в которых за это начисляются очки.</div>
+  </section>
+
+  <section class="guide-section">
+    <h2> Войска кристалла огня</h2>
+    <p>После перехода военных лагерей на уровни <b>кристалла огня</b> соответствующий тип войск получает дополнительные характеристики и навыки.</p>
+    <p>Это <b>не новая 11-я, 12-я или 13-я ступень</b>. Уровень кристалла огня является отдельным усилением войск.</p>
+    <div class="guide-callout warn"><b>Пример:</b> <b>10-я ступень + 3-й уровень кристалла огня</b> остаётся 10-й ступенью, усиленной третьим уровнем кристалла огня. Это <b>не 13-я ступень</b>.</div>
+    <p>Для каждого нового уровня кристалла огня не нужно вручную повышать каждого бойца как при переходе между обычными ступенями. Усиление связано с развитием соответствующего военного лагеря.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Войска солнца, 11-я ступень</h2>
+    <p>Следующий отдельный уровень после обычной 10-й ступени называется <b>Войска солнца, 11-я ступень</b>.</p>
+    <p>Они открываются через исследования <b>Военной академии</b>, отдельно для:</p>
+    <ul class="guide-list">
+      <li><b> пехоты;</b></li>
+      <li><b>копейщиков;</b></li>
+      <li><b> стрелков.</b></li>
+    </ul>
+    <p>Это уже действительно новая ступень войск, а не очередной уровень усиления кристаллом огня.</p>
+    <p>После открытия соответствующего исследования войска нужно обучать или повышать до 11-й ступени. В отличие от усиления лагеря кристаллом огня, переход на 11-ю ступень не происходит автоматически для всей армии.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Возвышенные войска, 12-я ступень</h2>
+    <p>Самая поздняя подтверждённая на данный момент ступень — <b>Возвышенные войска, 12-я ступень</b>.</p>
+    <p>Они появляются только после достижения государством необходимого этапа развития.</p>
+    <p>После открытия хотя бы одного вида <b>Войск солнца 11-й ступени</b> в Военной академии становится доступна <b>Технология пламени</b>, связанная с 12-й ступенью.</p>
+    <p>Ветки нельзя перескакивать между типами войск. Если открыта только пехота солнца, из неё можно развивать возвышенную пехоту, но это не позволяет сразу открыть возвышенных стрелков.</p>
+    <p>Для возвышенных стрелков сначала должны быть открыты соответствующие стрелки солнца 11-й ступени. То же правило действует для копейщиков.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Материалы для открытия 12-й ступени</h2>
+    <p>Для поздних исследований используются:</p>
+    <ul class="guide-list">
+      <li><b>сталь;</b></li>
+      <li><b>усовершенствованные кристаллы огня;</b></li>
+      <li><b>фрагменты кристаллов огня.</b></li>
+    </ul>
+  </section>
+
+  <section class="guide-section">
+    <h2> Технология пламени</h2>
+    <p>После открытия возвышенных войск соответствующая ветка Технологии пламени продолжает усиливать этот тип армии.</p>
+    <p>У 12-й ступени появляются собственные поздние боевые навыки. Среди официальных русских названий встречаются <b>«Меридиановая фаланга»</b>, <b>«Непробиваемая стена»</b> и <b>«Звёздный огонь»</b>.</p>
+    <div class="guide-callout tip"><b> Поздняя игра:</b> подробности этих навыков лучше рассматривать отдельно для каждого вида возвышенных войск, чтобы не перегружать основную памятку.</div>
+  </section>
+
+  <section class="guide-section">
+    <h2> А 13-я ступень?</h2>
+    <p>На текущий момент <b>13-ю ступень на сайте не фиксируем как существующую</b>. Подтверждённая поздняя цепочка заканчивается возвышенными войсками 12-й ступени.</p>
+    <p>Если разработчики официально выпустят следующую ступень, добавим её отдельным обновлением.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Как читать развитие войск</h2>
+    <div class="mini-grid">
+      <div class="mini-card"><b>1–10 ступени</b><br>Обычные уровни войск, открываемые развитием лагерей.</div>
+      <div class="mini-card"><b> Уровни кристалла огня</b><br>Дополнительное усиление существующих войск. Это не новая ступень.</div>
+      <div class="mini-card"><b> 11-я ступень</b><br>Войска солнца, открываемые исследованиями Военной академии.</div>
+      <div class="mini-card"><b> 12-я ступень</b><br>Возвышенные войска и дальнейшие поздние технологии.</div>
+    </div>
+  </section>
+
+  <section class="guide-section">
+    <h2> Как развивать армию</h2>
+    <p>Не нужно развивать только один тип войск. Для полноценной армии нужны пехота, копейщики и стрелки.</p>
+    <div class="guide-callout tip"><b>В начале:</b> обучаем достаточно войск для заполнения походов → затем постепенно повышаем старые войска.</div>
+    <p>Перед крупными событиями можно заранее сохранить ускорения обучения и провести массовое обучение или повышение в подходящий день события.</p>
+  </section>
+
+  <section class="guide-section">
+    <h2> Состав армии</h2>
+    <p>Одной правильной пропорции войск для всех режимов <b>не существует</b>.</p>
+    <p>Состав отличается для Медведя, атаки города, защиты, сборных атак, гарнизона, Битвы за замок и других событий.</p>
+    <p>Для каждого такого режима правильнее указывать отдельную пропорцию в его собственном гайде.</p>
+    <div class="guide-callout tip"><b>Базовая логика:</b> пехота удерживает переднюю линию, а копейщики и стрелки получают время наносить урон.</div>
+  </section>
+
+  <section class="guide-section">
+    <h2> Перед крупным боем</h2>
+    <ul class="guide-list">
+      <li>Проверь, есть ли свободное место в <b>Медпункте</b>.</li>
+      <li>Подготовь ресурсы и ускорения лечения.</li>
+      <li>Проверь доступные помощь и бонусы альянса.</li>
+      <li>Убедись, что выбран правильный состав отряда.</li>
+      <li>Проверь вместимость похода перед отправкой.</li>
+    </ul>
+  </section>
+
+  <div class="guide-callout tip"><b> Главное:</b> ступень войск и уровень кристалла огня являются разными системами. Подтверждённая цепочка развития: <b>1–10 ступени → уровни кристалла огня → Войска солнца 11-й ступени → Возвышенные войска 12-й ступени.</b></div>
+  <div class="v69-footer">Белая Мгла • Автор - Sova</div>
+</div>
+</div>
+
+</main><script>
 (function(){
   const items=document.querySelectorAll('section,.event-card,.guide-card,.expert-card,.thumb-card,.rule,.savebox,.callout');
   if(!('IntersectionObserver' in window)){items.forEach(x=>x.classList.add('in-view'));return;}

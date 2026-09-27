@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Главная</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
+<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Здания</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 
 <!-- v119: merged approved header updates from v102-v104 onto v118 mobile branch -->
-<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="home" class="is-home-route">
+<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="buildings" class="is-buildings-route">
 <div class="mobile-topbar" id="mobileTopbar" aria-label="Мобильная навигация">
   <button type="button" id="mobileMenuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
   <div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
@@ -25,14 +25,51 @@
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link active" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link active" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
 
-<main id="appMain"><div class="route-page active" data-route="home"><div class="guide-page-v69">
-<div class="guide-hero"><div class="guide-hero-text"><h1>Главная</h1><p>Проверенные гайды, короткие памятки и полезные подсказки по Белой Мгле.</p></div></div>
-<div class="guide-topics"><span class="topic-pill"> Ежедневная памятка</span><span class="topic-pill"> Как пользоваться сайтом</span><span class="topic-pill"> Для альянса</span></div>
-<section class="guide-section"><h2>Добро пожаловать в «Белую Мглу»</h2><p>Здесь собраны проверенные гайды, короткие памятки и полезные подсказки по игре. Только самое нужное: что делать, что беречь, куда вкладывать ресурсы и на что обратить внимание.</p><p><b>Автор — Sova.</b> Материалы сделаны так, чтобы нужную информацию можно было быстро найти самому или отправить союзникам.</p></section><section class="guide-section"><h2> Ежедневная памятка</h2><div class="mini-grid"><div class="mini-card"><b> Арена</b><br>Если хочешь сохранить более высокое место к выдаче дневных наград, последние попытки часто выгоднее проводить примерно за <b>5–10 минут до ежедневного сброса</b>. Так остаётся меньше времени, чтобы другие игроки успели опустить тебя в рейтинге.</div><div class="mini-card"><b> Маяк</b><br>Проверяй задания Маяка несколько раз в день. Новые задания обычно появляются в <b>00:00, 08:00 и 16:00 по серверному времени</b>. Не оставляй Маяк заполненным надолго, чтобы не терять следующие задания и награды.</div><div class="mini-card"><b> Ресурсы</b><br>Не спеши тратить редкие материалы, ускорения и ценные предметы развития. Если прокачка не срочная, часто выгоднее дождаться подходящего события или его этапа и получить дополнительные награды за те же расходы.</div></div></section><section class="guide-section"><h2> Последние изменения</h2><ul class="guide-list"><li><b>Эксперты:</b> обновлены гайды по экспертам и приоритетам их прокачки.</li><li><b>Маяк:</b> отдельный гайд по ежедневным заданиям, наградам и дополнительной разведке.</li><li><b>Письма:</b> добавлен раздел с важными игровыми письмами и отчётами.</li><li><b>Новые категории:</b> Лабиринт, Освоение и Остров.</li></ul></section><section class="guide-section"><h2> Как пользоваться сайтом</h2><div class="mini-grid"><div class="mini-card"><b>Найди нужную тему</b><br>Все основные разделы находятся в меню слева.</div><div class="mini-card"><b>Открой нужный блок</b><br>Гайды разбиты на небольшие части, чтобы ответ можно было найти за несколько секунд.</div><div class="mini-card"><b>Используй помощника</b><br>Если не знаешь, где искать информацию, задай вопрос помощнику в правом нижнем углу.</div></div></section><section class="guide-section"><h2> Для альянса</h2><p>Часть гайдов сделана специально в коротком формате, чтобы их было удобно отправлять в чат альянса. Названия, цифры и игровые формулировки проверяются перед публикацией.</p><div class="guide-callout tip"><b>Главный принцип:</b> точность важнее красивого оформления. Если информация ещё не подтверждена, это будет указано отдельно.</div></section><section class="guide-section"><h2> Об авторе</h2><p>Автор — Sova. Библиотека постепенно пополняется новыми гайдами, событиями и полезными заметками по мере развития игры.</p></section>
+<main id="appMain"><div class="route-page active" data-route="buildings"><div class="guide-page-v69">
+<div class="guide-hero"><div class="guide-hero-text"><h1>Здания</h1><p>Все основные постройки города: развитие до Топки 30 и переход в Эпоху кристалла огня.</p></div></div>
+<div class="guide-topics"><span class="topic-pill"> Топка</span><span class="topic-pill"> Топка 1–30</span><span class="topic-pill"> Кристаллы огня</span><span class="topic-pill"> Поздняя игра</span></div>
+
+<section class="guide-section">
+<h2> Как устроено развитие зданий</h2>
+<p>Главное здание города — <b>Топка</b>. Её уровень ограничивает развитие большинства других построек и открывает новые системы игры.</p>
+<p>Развитие города удобно разделить на два больших этапа:</p>
+<div class="mini-grid">
+<div class="mini-card"><b> Топка 1–30</b><br>Обычное развитие города, ресурсов, армии, исследований и систем героев.</div>
+<div class="mini-card"><b> Эпоха кристалла огня</b><br>После достижения Топкой <b>уровня кристалла огня 1</b> начинается следующий этап развития города.</div>
+</div>
+</section>
+
+<section class="guide-section guide-detail-links-v89">
+<h2> Здания по этапам</h2>
+<div class="guide-nav-grid">
+<a class="guide-nav-card" href="buildings-before-fire.html">До Топки 30</a>
+<a class="guide-nav-card" href="buildings-after-fire.html">Эпоха кристалла огня</a>
+</div>
+</section>
+
+<section class="guide-section">
+<h2> Главные ориентиры</h2>
+<div class="mini-grid">
+<div class="mini-card"><b> Топка</b><br>Главное здание и основной ограничитель развития города.</div>
+<div class="mini-card"><b> Посольство</b><br>Помощь альянса и подкрепления. Регулярно требуется для повышения Топки.</div>
+<div class="mini-card"><b> Научный центр</b><br>Исследования развития, экономики и боя. Исследования желательно держать постоянно активными.</div>
+<div class="mini-card"><b> Медпункт</b><br>Лечит раненые войска. Не путать с Больницей, которая относится к выжившим.</div>
+<div class="mini-card"><b> Командный центр</b><br>Увеличивает вместимость создаваемых вами рейдов.</div>
+<div class="mini-card"><b> Военные лагеря</b><br>Лагерь пехоты, Лагерь копейщиков и Лагерь стрелков.</div>
+</div>
+</section>
+
+<section class="guide-section">
+<h2> Главное</h2>
+<div class="guide-callout tip"><b>До Топки 30:</b> Топка → здания, нужные для следующего уровня → Посольство и Научный центр → военные лагеря по необходимости.<br><br><b>После перехода:</b> заранее проверяем требования следующего уровня Топки и не расходуем Кристаллы огня на всё подряд.</div>
+</section>
+
 <div class="v69-footer">Белая Мгла • Автор - Sova</div>
-</div></div></main><script>
+</div></div>
+
+</main><script>
 (function(){
   const items=document.querySelectorAll('section,.event-card,.guide-card,.expert-card,.thumb-card,.rule,.savebox,.callout');
   if(!('IntersectionObserver' in window)){items.forEach(x=>x.classList.add('in-view'));return;}

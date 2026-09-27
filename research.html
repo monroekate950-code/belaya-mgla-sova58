@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Главная</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
+<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Исследования</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 
 <!-- v119: merged approved header updates from v102-v104 onto v118 mobile branch -->
-<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="home" class="is-home-route">
+<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="research" class="is-research-route">
 <div class="mobile-topbar" id="mobileTopbar" aria-label="Мобильная навигация">
   <button type="button" id="mobileMenuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
   <div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
@@ -25,14 +25,152 @@
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link active" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link active" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
 
-<main id="appMain"><div class="route-page active" data-route="home"><div class="guide-page-v69">
-<div class="guide-hero"><div class="guide-hero-text"><h1>Главная</h1><p>Проверенные гайды, короткие памятки и полезные подсказки по Белой Мгле.</p></div></div>
-<div class="guide-topics"><span class="topic-pill"> Ежедневная памятка</span><span class="topic-pill"> Как пользоваться сайтом</span><span class="topic-pill"> Для альянса</span></div>
-<section class="guide-section"><h2>Добро пожаловать в «Белую Мглу»</h2><p>Здесь собраны проверенные гайды, короткие памятки и полезные подсказки по игре. Только самое нужное: что делать, что беречь, куда вкладывать ресурсы и на что обратить внимание.</p><p><b>Автор — Sova.</b> Материалы сделаны так, чтобы нужную информацию можно было быстро найти самому или отправить союзникам.</p></section><section class="guide-section"><h2> Ежедневная памятка</h2><div class="mini-grid"><div class="mini-card"><b> Арена</b><br>Если хочешь сохранить более высокое место к выдаче дневных наград, последние попытки часто выгоднее проводить примерно за <b>5–10 минут до ежедневного сброса</b>. Так остаётся меньше времени, чтобы другие игроки успели опустить тебя в рейтинге.</div><div class="mini-card"><b> Маяк</b><br>Проверяй задания Маяка несколько раз в день. Новые задания обычно появляются в <b>00:00, 08:00 и 16:00 по серверному времени</b>. Не оставляй Маяк заполненным надолго, чтобы не терять следующие задания и награды.</div><div class="mini-card"><b> Ресурсы</b><br>Не спеши тратить редкие материалы, ускорения и ценные предметы развития. Если прокачка не срочная, часто выгоднее дождаться подходящего события или его этапа и получить дополнительные награды за те же расходы.</div></div></section><section class="guide-section"><h2> Последние изменения</h2><ul class="guide-list"><li><b>Эксперты:</b> обновлены гайды по экспертам и приоритетам их прокачки.</li><li><b>Маяк:</b> отдельный гайд по ежедневным заданиям, наградам и дополнительной разведке.</li><li><b>Письма:</b> добавлен раздел с важными игровыми письмами и отчётами.</li><li><b>Новые категории:</b> Лабиринт, Освоение и Остров.</li></ul></section><section class="guide-section"><h2> Как пользоваться сайтом</h2><div class="mini-grid"><div class="mini-card"><b>Найди нужную тему</b><br>Все основные разделы находятся в меню слева.</div><div class="mini-card"><b>Открой нужный блок</b><br>Гайды разбиты на небольшие части, чтобы ответ можно было найти за несколько секунд.</div><div class="mini-card"><b>Используй помощника</b><br>Если не знаешь, где искать информацию, задай вопрос помощнику в правом нижнем углу.</div></div></section><section class="guide-section"><h2> Для альянса</h2><p>Часть гайдов сделана специально в коротком формате, чтобы их было удобно отправлять в чат альянса. Названия, цифры и игровые формулировки проверяются перед публикацией.</p><div class="guide-callout tip"><b>Главный принцип:</b> точность важнее красивого оформления. Если информация ещё не подтверждена, это будет указано отдельно.</div></section><section class="guide-section"><h2> Об авторе</h2><p>Автор — Sova. Библиотека постепенно пополняется новыми гайдами, событиями и полезными заметками по мере развития игры.</p></section>
+<main id="appMain"><div class="route-page active" data-route="research"><div class="guide-page-v69">
+<div class="guide-hero"><div class="guide-hero-text"><h1>Исследования</h1><p>Что исследовать сначала, как развивать три ветки Научного центра и что открывается в поздней игре.</p></div></div>
+<div class="guide-topics"><span class="topic-pill"> Развитие</span><span class="topic-pill"> Экономика</span><span class="topic-pill"> Битва</span></div>
+
+<section class="guide-section">
+<h2> Исследования</h2>
+<p>Исследования дают <b>постоянные бонусы</b> городу и армии. После завершения технология продолжает действовать постоянно, поэтому Научный центр лучше по возможности не оставлять без работы.</p>
+<p><b>Научный центр открывается при Топке 9.</b> С повышением его уровня открываются более продвинутые исследования и увеличивается собственный бонус к скорости исследований.</p>
+<p>В Научном центре находятся три основных направления:</p>
+<div class="mini-grid">
+<div class="mini-card"><b> Развитие</b><br>Ускоряет развитие города, строительство, исследования, обучение и лечение войск.</div>
+<div class="mini-card"><b> Экономика</b><br>Улучшает производство и сбор основных ресурсов.</div>
+<div class="mini-card"><b> Битва</b><br>Усиливает боевые характеристики армии и открывает дополнительные военные улучшения.</div>
+</div>
+</section>
+
+<section class="guide-section">
+<h2> Развитие</h2>
+<p>Эта ветка особенно полезна в начале игры, потому что её бонусы экономят время на протяжении всего дальнейшего развития.</p>
+<p>Здесь находятся улучшения, связанные с:</p>
+<ul class="guide-list">
+<li>скоростью строительства;</li>
+<li>скоростью исследований;</li>
+<li>скоростью обучения войск;</li>
+<li>вместимостью обучения;</li>
+<li>вместимостью Медпункта;</li>
+<li>скоростью лечения;</li>
+<li>другими системами развития города и армии.</li>
+</ul>
+<div class="guide-callout tip"><b> Рекомендуемый приоритет:</b><br><br>Сначала обратить внимание на <b>скорость исследований</b> и <b>скорость строительства</b>, затем на обучение и лечение.<br><br>Это не обязательный порядок игры, а практический приоритет: чем раньше получены постоянные ускорения, тем дольше они успевают работать на аккаунт.</div>
+</section>
+
+<section class="guide-section">
+<h2> Экономика</h2>
+<p>Ветка <b>«Экономика»</b> улучшает производство и сбор основных ресурсов:</p>
+<div class="mini-grid">
+<div class="mini-card"> <b>Мясо</b></div>
+<div class="mini-card"> <b>Древесина</b></div>
+<div class="mini-card"> <b>Уголь</b></div>
+<div class="mini-card"> <b>Железо</b></div>
+</div>
+<p>Здесь находятся технологии, увеличивающие производство ресурсов в городе и скорость их сбора на карте.</p>
+<div class="guide-callout tip"><b> Как развивать Экономику</b><br><br>Строгого универсального порядка здесь нет. Если ресурсов хватает, часть экономики можно временно отложить ради Развития или Битвы. Если аккаунту постоянно не хватает определённого ресурса, имеет смысл усилить именно его производство или сбор.<br><br>Для фермы приоритеты могут отличаться от основного аккаунта.</div>
+</section>
+
+<section class="guide-section">
+<h2> Битва</h2>
+<p>Ветка <b>«Битва»</b> напрямую усиливает армию.</p>
+<p>Она содержит технологии для:</p>
+<div class="mini-grid">
+<div class="mini-card"><b> Пехоты</b></div>
+<div class="mini-card"><b>Копейщиков</b></div>
+<div class="mini-card"><b> Стрелков</b></div>
+</div>
+<p>Исследования повышают боевые характеристики войск, включая <b>атаку, защиту, здоровье и смертоносность</b>, а также дают дополнительные улучшения боевых отрядов.</p>
+
+<h3> Пехота</h3>
+<p>Основная передняя линия. Для неё особенно важна выживаемость.</p>
+
+<h3>Копейщики</h3>
+<p>Средняя линия. Им полезно развивать как урон, так и защитные характеристики.</p>
+
+<h3> Стрелки</h3>
+<p>Основной источник дальнего урона. Для них особенно важны боевые характеристики, увеличивающие наносимый урон.</p>
+
+<div class="guide-callout tip"><b> Важно:</b> не используем один строгий приоритет характеристик для всех режимов. Реальные задачи отличаются между рейдами, защитой, Замком и другими событиями.</div>
+</section>
+
+<section class="guide-section">
+<h2> Что исследовать сначала</h2>
+<div class="research-priority">
+<div class="research-step"><span>1</span><div><b> Развитие</b><small>В начале берём ключевые постоянные ускорения.</small></div></div>
+<div class="research-step"><span>2</span><div><b> Битва</b><small>Не оставляем её полностью позади. Армия должна развиваться вместе с городом.</small></div></div>
+<div class="research-step"><span>3</span><div><b> Экономика</b><small>Подтягиваем по потребности в ресурсах.</small></div></div>
+</div>
+<div class="guide-callout tip"><b> Главное правило:</b> Научный центр не должен простаивать. Даже небольшое полезное исследование лучше пустой очереди. Исследования складываются друг с другом и со временем дают очень заметную разницу.</div>
+</section>
+
+<section class="guide-section">
+<h2> Перед длинным исследованием</h2>
+<p>Перед запуском долгой технологии стоит проверить доступные способы сократить время исследования:</p>
+<ul class="guide-list">
+<li>бонусы государства;</li>
+<li>помощь альянса;</li>
+<li>временные усиления;</li>
+<li>подходящие события.</li>
+</ul>
+</section>
+
+<section class="guide-section">
+<h2> Поздние исследования</h2>
+<p>После перехода в <b>Эпоху кристалла огня</b> обычный Научный центр продолжает работать. Все уже изученные технологии остаются активными.</p>
+<p>Позже в государстве открывается отдельное здание для продвинутых военных исследований — <b>Военная академия</b>.</p>
+</section>
+
+<section class="guide-section">
+<h2> Военная академия</h2>
+<p>Военная академия не заменяет Научный центр и не является его четвёртой веткой.</p>
+<p>В ней находятся отдельные направления исследований для:</p>
+<div class="mini-grid">
+<div class="mini-card"><b> Пехоты</b></div>
+<div class="mini-card"><b>Копейщиков</b></div>
+<div class="mini-card"><b> Стрелков</b></div>
+</div>
+<p>Для этих исследований используются <b>Осколки кристалла огня</b> и другие ресурсы.</p>
+<p>Осколки можно получать в том числе обменом стали, Кристаллов огня и из других доступных источников игры.</p>
+</section>
+
+<section class="guide-section">
+<h2> Войска 11-го уровня</h2>
+<p>Военная академия открывает отдельные цепочки исследований для <b>войск 11-го уровня</b>.</p>
+<p>Это уже новый уровень войск, а не просто очередное усиление обычных войск кристаллами огня.</p>
+</section>
+
+<section class="guide-section">
+<h2> Войска 12-го уровня</h2>
+<p>На ещё более позднем этапе через Военную академию открываются исследования <b>войск 12-го уровня</b>.</p>
+<p>Каждый тип войск развивает собственную ветку исследований.</p>
+</section>
+
+<section class="guide-section">
+<h2> Уровни кристалла огня и уровни войск</h2>
+<p>Эти системы важно не смешивать.</p>
+<div class="mini-grid">
+<div class="mini-card"><b> Уровни кристалла огня 1–10</b><br>Усиление существующих войск через развитие военных лагерей.</div>
+<div class="mini-card"><b> Войска 11-го уровня</b><br>Отдельный уровень, открываемый через Военную академию.</div>
+<div class="mini-card"><b> Войска 12-го уровня</b><br>Следующий отдельный поздний уровень.</div>
+</div>
+<div class="guide-callout warn"><b>Важно:</b> усиление войск 10-го уровня до третьего уровня кристалла огня <b>не превращает их в войска 13-го уровня</b>.</div>
+</section>
+
+<section class="guide-section">
+<h2> Коротко</h2>
+<div class="mini-grid">
+<div class="mini-card"><b> Научный центр</b><br> Развитие<br> Экономика<br> Битва</div>
+<div class="mini-card"><b> Военная академия</b><br> Поздние военные исследования<br> Войска 11-го уровня<br> Войска 12-го уровня</div>
+</div>
+</section>
+
+<div class="guide-callout tip research-final"><b> Главное:</b> обычные исследования и исследования Военной академии являются разными системами и работают параллельно. Сначала развиваем Научный центр, а на позднем этапе добавляем отдельные технологии Военной академии.</div>
 <div class="v69-footer">Белая Мгла • Автор - Sova</div>
-</div></div></main><script>
+</div></div>
+
+</main><script>
 (function(){
   const items=document.querySelectorAll('section,.event-card,.guide-card,.expert-card,.thumb-card,.rule,.savebox,.callout');
   if(!('IntersectionObserver' in window)){items.forEach(x=>x.classList.add('in-view'));return;}

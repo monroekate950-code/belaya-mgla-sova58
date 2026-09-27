@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Главная</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
+<html lang="ru"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1" name="viewport"><title>Белая Мгла • Ферма</title><!-- v112: events overview uses catalog icons only; decorative event-name emoji removed -->
 
 <!-- v119: merged approved header updates from v102-v104 onto v118 mobile branch -->
-<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="home" class="is-home-route">
+<link rel="stylesheet" href="assets/site.css"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"></head><body data-static-route="farm" class="is-farm-route">
 <div class="mobile-topbar" id="mobileTopbar" aria-label="Мобильная навигация">
   <button type="button" id="mobileMenuToggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
   <div class="mobile-topbar-title"><strong>БЕЛАЯ МГЛА</strong><small>Гайды • Sova</small></div>
@@ -25,14 +25,144 @@
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link active" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png">Герои</a><a class="route-link" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png">События</a><a class="route-link active" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
 
-<main id="appMain"><div class="route-page active" data-route="home"><div class="guide-page-v69">
-<div class="guide-hero"><div class="guide-hero-text"><h1>Главная</h1><p>Проверенные гайды, короткие памятки и полезные подсказки по Белой Мгле.</p></div></div>
-<div class="guide-topics"><span class="topic-pill"> Ежедневная памятка</span><span class="topic-pill"> Как пользоваться сайтом</span><span class="topic-pill"> Для альянса</span></div>
-<section class="guide-section"><h2>Добро пожаловать в «Белую Мглу»</h2><p>Здесь собраны проверенные гайды, короткие памятки и полезные подсказки по игре. Только самое нужное: что делать, что беречь, куда вкладывать ресурсы и на что обратить внимание.</p><p><b>Автор — Sova.</b> Материалы сделаны так, чтобы нужную информацию можно было быстро найти самому или отправить союзникам.</p></section><section class="guide-section"><h2> Ежедневная памятка</h2><div class="mini-grid"><div class="mini-card"><b> Арена</b><br>Если хочешь сохранить более высокое место к выдаче дневных наград, последние попытки часто выгоднее проводить примерно за <b>5–10 минут до ежедневного сброса</b>. Так остаётся меньше времени, чтобы другие игроки успели опустить тебя в рейтинге.</div><div class="mini-card"><b> Маяк</b><br>Проверяй задания Маяка несколько раз в день. Новые задания обычно появляются в <b>00:00, 08:00 и 16:00 по серверному времени</b>. Не оставляй Маяк заполненным надолго, чтобы не терять следующие задания и награды.</div><div class="mini-card"><b> Ресурсы</b><br>Не спеши тратить редкие материалы, ускорения и ценные предметы развития. Если прокачка не срочная, часто выгоднее дождаться подходящего события или его этапа и получить дополнительные награды за те же расходы.</div></div></section><section class="guide-section"><h2> Последние изменения</h2><ul class="guide-list"><li><b>Эксперты:</b> обновлены гайды по экспертам и приоритетам их прокачки.</li><li><b>Маяк:</b> отдельный гайд по ежедневным заданиям, наградам и дополнительной разведке.</li><li><b>Письма:</b> добавлен раздел с важными игровыми письмами и отчётами.</li><li><b>Новые категории:</b> Лабиринт, Освоение и Остров.</li></ul></section><section class="guide-section"><h2> Как пользоваться сайтом</h2><div class="mini-grid"><div class="mini-card"><b>Найди нужную тему</b><br>Все основные разделы находятся в меню слева.</div><div class="mini-card"><b>Открой нужный блок</b><br>Гайды разбиты на небольшие части, чтобы ответ можно было найти за несколько секунд.</div><div class="mini-card"><b>Используй помощника</b><br>Если не знаешь, где искать информацию, задай вопрос помощнику в правом нижнем углу.</div></div></section><section class="guide-section"><h2> Для альянса</h2><p>Часть гайдов сделана специально в коротком формате, чтобы их было удобно отправлять в чат альянса. Названия, цифры и игровые формулировки проверяются перед публикацией.</p><div class="guide-callout tip"><b>Главный принцип:</b> точность важнее красивого оформления. Если информация ещё не подтверждена, это будет указано отдельно.</div></section><section class="guide-section"><h2> Об авторе</h2><p>Автор — Sova. Библиотека постепенно пополняется новыми гайдами, событиями и полезными заметками по мере развития игры.</p></section>
+<main id="appMain"><div class="route-page active" data-route="farm"><div class="guide-page-v69">
+<div class="guide-hero"><div class="guide-hero-text"><h1>Ферма</h1><p>Дополнительный персонаж для сбора и передачи ресурсов основному аккаунту.</p></div></div>
+<div class="guide-topics"><span class="topic-pill"> Сбор</span><span class="topic-pill"> Передача</span><span class="topic-pill"> Склад</span><span class="topic-pill"> Альянс</span></div>
+
+<section class="guide-section">
+<h2> Что такое ферма</h2>
+<p><b>Ферма</b> — дополнительный персонаж в том же государстве, который развивается прежде всего ради производства и сбора ресурсов для основного аккаунта.</p>
+<p>Это не отдельная официальная функция игры, а распространённая стратегия игроков.</p>
+<div class="guide-callout tip"><b>Основная задача фермы:</b><br><br><b>собирать ресурсы → хранить доступный для разграбления запас → при необходимости отдавать его основному аккаунту через атаку.</b></div>
+</section>
+
+<section class="guide-section">
+<h2> Где создавать ферму</h2>
+<p>Ферма должна находиться <b>в том же государстве</b>, что и основной аккаунт.</p>
+<p>Иначе основной персонаж не сможет приехать к ней на карте и забрать ресурсы обычной атакой.</p>
+<div class="guide-callout warn"><b>По русской версии игры:</b> в одном государстве можно создать максимум <b>2 персонажа</b>.</div>
+</section>
+
+<section class="guide-section">
+<h2> Что развивать</h2>
+<p>Ферме не требуется такая же прокачка, как основному боевому аккаунту.</p>
+
+<h3> Топка</h3>
+<p>Развивай Топку настолько, насколько это необходимо для:</p>
+<ul class="guide-list">
+<li>дополнительных очередей походов;</li>
+<li>военных лагерей;</li>
+<li>исследований;</li>
+<li>достаточной грузоподъёмности армии.</li>
+</ul>
+<p>Одного универсального уровня остановки нет.</p>
+<p>Для простой фермы нет необходимости бесконечно гнаться за боевой мощью.</p>
+
+<h3> Исследования</h3>
+<p>Главный приоритет:</p>
+<div class="guide-callout tip"><b> Экономика</b></div>
+<p>Особенно полезны:</p>
+<ul class="guide-list">
+<li>скорость сбора мяса;</li>
+<li>скорость сбора древесины;</li>
+<li>скорость сбора угля;</li>
+<li>скорость сбора железа;</li>
+<li>производство ресурсов.</li>
+</ul>
+<p>Исследования Развития тоже полезны, если помогают быстрее получить нужные здания, походы и войска.</p>
+<p>Боевые исследования можно оставить второстепенными, если ферма не используется в событиях и боях.</p>
+</section>
+
+<section class="guide-section">
+<h2> Войска</h2>
+<p>Ферме нужны войска прежде всего для <b>сбора ресурсов</b>.</p>
+<p>Главная цель: иметь достаточно войск, чтобы одновременно заполнить все используемые походы и полностью собирать хорошие ресурсные плитки.</p>
+<p>Более высокая ступень войск увеличивает грузоподъёмность одного бойца, поэтому позднее требуется меньше войск для того же объёма ресурсов.</p>
+<div class="guide-callout tip"><b> После достижения достаточного количества армии</b> нет необходимости постоянно обучать огромные запасы войск только ради мощности.</div>
+</section>
+
+<section class="guide-section">
+<h2> Герои</h2>
+<p>В первую очередь ферме полезны герои для сбора:</p>
+<div class="mini-grid">
+<div class="mini-card"> <b>Клорис</b><br>Мясо</div>
+<div class="mini-card"> <b>Юджин</b><br>Древесина</div>
+<div class="mini-card"> <b>Чарли</b><br>Уголь</div>
+<div class="mini-card"> <b>Смит</b><br>Железо</div>
+</div>
+<p>Их экономические навыки гораздо важнее для фермы, чем создание дорогой боевой пятёрки.</p>
+</section>
+
+<section class="guide-section">
+<h2> Склад на ферме</h2>
+<p>Здесь логика отличается от основного аккаунта.</p>
+<p>Склад защищает часть ресурсов от разграбления. Чем выше его уровень, тем больше ресурсов останется недоступно атакующему.</p>
+<p>Если цель персонажа именно <b>передавать ресурсы основному аккаунту через разграбление</b>, Склад лучше повышать только тогда, когда это необходимо для прогресса.</p>
+<div class="guide-callout warn"><b> Не прокачиваем Склад просто ради мощности.</b><br><br>Но и не пишем «никогда не повышай Склад»: иногда повышение может потребоваться для дальнейшего развития города.</div>
+</section>
+
+<section class="guide-section">
+<h2> Какие ресурсы можно забрать</h2>
+<p>Основной аккаунт может забрать только <b>ресурсы, доступные для разграбления</b>.</p>
+<p>Часть запаса защищена механикой игры и Складом.</p>
+<p>Прямой кнопки <b>«передать ресурсы другому игроку»</b> в игре нет.</p>
+<p>Поэтому фермерская схема работает именно через нападение на город дополнительного персонажа.</p>
+</section>
+
+<section class="guide-section">
+<h2> Как забрать ресурсы с фермы</h2>
+<ol class="guide-list numbered">
+<li><b>Убери войска из города фермы.</b> Отправь их на ресурсные плитки, в лагерь или другое безопасное место.</li>
+<li><b>Убедись, что в городе нет подкреплений.</b></li>
+<li><b>Проверь количество доступных для разграбления ресурсов.</b></li>
+<li><b>Если ферма состоит в том же альянсе, заранее реши вопрос с членством.</b> Обычно используют отдельный фермерский альянс либо временно выводят ферму перед разграблением.</li>
+<li><b>Основным аккаунтом атакуй ферму.</b></li>
+<li><b>Повтори атаки только до получения нужного количества ресурсов.</b></li>
+</ol>
+<div class="guide-callout warn"><b> Перед атакой фермы город должен быть пустым от войск и подкреплений.</b><br><br>Иначе основной и дополнительный аккаунты фактически начнут сражаться друг с другом, что создаёт ненужные ранения и потери.</div>
+</section>
+
+<section class="guide-section">
+<h2> В каком альянсе держать ферму</h2>
+<div class="mini-grid">
+<div class="mini-card"><b>Основной альянс</b><br>Удобнее для помощи, событий и наград, но перед разграблением ферму приходится выводить.</div>
+<div class="mini-card"><b>Фермерский или академический альянс</b><br>Удобнее для постоянного хранения фермы и дополнительных аккаунтов.</div>
+</div>
+<p>Если в государстве существуют правила защиты ферм или академий, придерживайся именно правил своего государства.</p>
+</section>
+
+<section class="guide-section">
+<h2> Что делать каждый день</h2>
+<p>Для простой фермы достаточно короткого цикла:</p>
+<div class="guide-callout tip"><b> забрать производство →  отправить все походы на сбор →  запустить нужное исследование →  при необходимости запустить строительство →  нажать помощь альянсу →  перед выходом снова оставить походы на сборе.</b></div>
+<p>Главная ценность фермы не в идеальной прокачке, а в том, чтобы её походы <b>как можно меньше простаивали</b>.</p>
+</section>
+
+<section class="guide-section">
+<h2> Стоит ли участвовать в событиях</h2>
+<p>Только если это не требует много времени и расхода редких ресурсов.</p>
+<p>Полезными могут быть события, которые дают:</p>
+<ul class="guide-list">
+<li>ресурсы;</li>
+<li>ускорения;</li>
+<li>энергию;</li>
+<li>дополнительные награды почти бесплатно.</li>
+</ul>
+<div class="guide-callout warn"><b>Не стоит сжигать накопленные ресурсы фермы ради высокого места в рейтинге.</b></div>
+</section>
+
+<div class="guide-callout tip"><b> Главное:</b><br><br>
+Ферма должна быть простой.<br><br>
+<b>Собирать → копить → отдавать ресурсы основному аккаунту.</b><br><br>
+Приоритет: <b>Экономика → сбор → достаточное количество войск → постоянные походы.</b><br><br>
+Склад повышаем только по необходимости, боевую мощь не гоним без причины, а перед разграблением убираем войска и подкрепления из города.</div>
+
 <div class="v69-footer">Белая Мгла • Автор - Sova</div>
-</div></div></main><script>
+</div></div>
+
+</main><script>
 (function(){
   const items=document.querySelectorAll('section,.event-card,.guide-card,.expert-card,.thumb-card,.rule,.savebox,.callout');
   if(!('IntersectionObserver' in window)){items.forEach(x=>x.classList.add('in-view'));return;}
