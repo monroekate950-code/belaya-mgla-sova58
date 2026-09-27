@@ -101,3 +101,10 @@ V264
 V265
 - Исправлены только проверенные формулировки на странице «Маяк».
 - Остальные страницы и оформление не менялись.
+
+
+V266
+- Winter Siege: removed unverified exact Spirit decrement formula and numeric ladder example.
+- Reframed weaker-player Spirit reduction as a tactical option, not a hard rule.
+- Removed unverified monthly cadence statement.
+- No other content/design changes.
