@@ -8,7 +8,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#a9c8ec 0,#8fb3df 28%,#799fcf 58%,#adc9e9 100%);color:var(--ink);font-size:14px}
-.hero{min-height:205px;background-image:linear-gradient(180deg,rgba(18,45,91,.08),rgba(18,45,91,.38)),url('img_63a7cd675cd953a6.png');background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:16px 12px}
+.hero{min-height:205px;background-image:linear-gradient(180deg,rgba(18,45,91,.08),rgba(18,45,91,.38)),url('assets/img_63a7cd675cd953a6.webp');background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:16px 12px}
 .hero-inner{max-width:860px;width:100%;margin:0 auto;display:flex;justify-content:space-between;gap:14px;align-items:end}
 .brand{background:rgba(255,255,255,.92);backdrop-filter:blur(9px);padding:9px 12px;border-radius:13px;box-shadow:0 10px 30px rgba(27,61,121,.18)}
 .brand h1{margin:0;font-size:clamp(23px,3vw,30px)}
@@ -148,7 +148,7 @@ body{position:relative;overflow-x:hidden;isolation:isolate}
 .snowflake{position:absolute;display:block;width:9px;height:9px;border-radius:50%;background:#fff;border:1px solid rgba(115,160,210,.8);box-shadow:0 0 8px rgba(255,255,255,.95),0 0 3px rgba(51,95,150,.4);animation:snowFall linear infinite}
 .snowflake.sm{width:5px;height:5px}.snowflake.lg{width:13px;height:13px}
 @keyframes snowFall{from{transform:translate3d(0,-18vh,0)}to{transform:translate3d(var(--drift),118vh,0)}}
-.feather{position:absolute;display:block;width:24px;height:50px;background-image:url('img_12f037d151c400ce.png');background-repeat:no-repeat;background-position:center;background-size:contain;filter:drop-shadow(0 1px 3px rgba(46,77,115,.18)) drop-shadow(0 0 4px rgba(255,255,255,.45));animation:featherFall linear infinite;opacity:.72}
+.feather{position:absolute;display:block;width:24px;height:50px;background-image:url('assets/img_12f037d151c400ce.webp');background-repeat:no-repeat;background-position:center;background-size:contain;filter:drop-shadow(0 1px 3px rgba(46,77,115,.18)) drop-shadow(0 0 4px rgba(255,255,255,.45));animation:featherFall linear infinite;opacity:.72}
 .feather:after{content:none}
 .feather.sm{width:18px;height:38px;opacity:.62}
 .feather.lg{width:30px;height:62px;opacity:.8}
@@ -2949,7 +2949,7 @@ main#appMain{
 
 /* HOME PAGE: official logo + unique landing content */
 .ui-home-logo{display:none;max-width:520px;width:min(72vw,520px);height:auto;margin:0 auto 18px;object-fit:contain;filter:drop-shadow(0 3px 5px rgba(9,28,55,.24));}
-body.is-home-route .hero{background-image:linear-gradient(180deg,rgba(22,52,91,.10),rgba(16,51,88,.32)),url("img_cf0b12b1c7f4cb18.png") !important;background-size:cover !important;background-position:center 43% !important;min-height:360px !important;height:360px !important;}
+body.is-home-route .hero{background-image:linear-gradient(180deg,rgba(22,52,91,.10),rgba(16,51,88,.32)),url("assets/img_cf0b12b1c7f4cb18.webp") !important;background-size:cover !important;background-position:center 43% !important;min-height:360px !important;height:360px !important;}
 body.is-home-route .ui-route-hero{justify-content:center !important;text-align:center !important;}
 body.is-home-route .ui-route-emblem{display:none !important;}
 body.is-home-route .ui-route-owl{display:none !important;}
@@ -4602,7 +4602,7 @@ body:not(.is-home-route) .route-page .guide-page-v69 > .guide-topics{display:non
 
 /* v79: утверждённая шапка Главной, вариант 3 */
 body.is-home-route .hero {
-  background-image:url("img_55f2688a367250fb.png") !important;
+  background-image:url("assets/img_55f2688a367250fb.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   min-height:430px !important;
@@ -4639,7 +4639,7 @@ body.is-newbie-route .hero {
       rgba(17,48,91,.20) 48%,
       rgba(17,48,91,.08) 72%,
       rgba(17,48,91,.12) 100%),
-    url("img_ca8bac5f01b0c585.png") !important;
+    url("assets/img_ca8bac5f01b0c585.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
 }
@@ -4658,7 +4658,7 @@ body.is-heroes-route .hero {
       rgba(17,48,91,.20) 48%,
       rgba(17,48,91,.08) 72%,
       rgba(17,48,91,.12) 100%),
-    url("img_e430aab46e8893e4.png") !important;
+    url("assets/img_e430aab46e8893e4.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
 }
@@ -4680,101 +4680,101 @@ body.is-heroes-route .hero-inner {
 .catalog-icon-strip .catalog-event-icon{width:58px;height:30px}
 @media(max-width:700px){.catalog-game-icon.catalog-header-icon{width:31px;height:31px;vertical-align:-8px}.catalog-game-icon{width:24px;height:24px;vertical-align:-6px}.catalog-game-icon.catalog-hero-icon{width:27px;height:27px}.catalog-game-icon.catalog-event-icon{width:40px;height:23px}}
 
-.ci-diamond{background-image:url("img_babf41d0e1742c77.png")}
-.ci-fire_crystal{background-image:url("img_112e54b6724810f7.png")}
-.ci-hero_exp{background-image:url("img_b7101affa0072b40.png")}
-.ci-resource_chest{background-image:url("img_0953e4b9b30fb82c.png")}
-.ci-speedup{background-image:url("img_69d0f9f44a6f9451.png")}
-.ci-speedup_build{background-image:url("img_32efbe2f6372c16e.png")}
-.ci-speedup_research{background-image:url("img_62e00f6b51c34c0b.png")}
-.ci-speedup_training{background-image:url("img_511c7898b3ccdad8.png")}
-.ci-plans{background-image:url("img_756a46ed03643296.png")}
-.ci-polish{background-image:url("img_a5c670aa9e9e9b62.png")}
-.ci-alloy{background-image:url("img_684cfadd5258b649.png")}
-.ci-essence{background-image:url("img_f75e9ecd9585de61.png")}
-.ci-mythic_frag{background-image:url("img_97495f482d4b0e66.png")}
-.ci-rare_frag{background-image:url("img_6b1659b9357b576c.png")}
-.ci-gear_component{background-image:url("img_d82f60ca98b017ca.png")}
-.ci-taming_guide{background-image:url("img_71936936d75f4a9e.png")}
-.ci-energy_potion{background-image:url("img_b0d9b8f5f011b92f.png")}
-.ci-wild_improved{background-image:url("img_f3482d0f1ecea57f.png")}
-.ci-wild_normal{background-image:url("img_65bdcc25c010c4dc.png")}
-.ci-mythic_mastery{background-image:url("img_b9f40cf535c7630d.png")}
-.ci-great_mastery{background-image:url("img_bbc7f29eb3d70563.png")}
-.ci-rare_mastery{background-image:url("img_3be7ca1ce6e1e0ca.png")}
-.ci-mythic_expedition{background-image:url("img_b8ac482442b245c6.png")}
-.ci-great_expedition{background-image:url("img_2fa7fd1b66dc6eeb.png")}
-.ci-rare_expedition{background-image:url("img_17bcc0fadd4b7769.png")}
-.ci-advanced_teleport{background-image:url("img_1dde1c8e1c763eca.png")}
-.ci-poseidon_horn{background-image:url("img_0e1686b999b02b3d.png")}
-.ci-event_endless{background-image:url("img_266628f028b1ea5e.png")}
-.ci-event_bear{background-image:url("img_f476f593b05c4dd0.png")}
-.ci-event_castle{background-image:url("img_cbcb19d3ac313c96.png")}
-.ci-event_fort{background-image:url("img_b092dc93f86e67c4.png")}
-.ci-event_foundry{background-image:url("img_d54e0a1907a1f1d9.png")}
-.ci-event_arms{background-image:url("img_86277db2c42159fc.png")}
-.ci-event_championship{background-image:url("img_c570407354ae1e53.png")}
-.ci-event_calendar{background-image:url("img_b288cf306a0dd637.png")}
-.ci-event_state_power{background-image:url("img_5e9508e3d1c24c1f.png")}
-.ci-event_alliance_mobilization{background-image:url("img_483223aef81e3a48.png")}
-.ci-furnace{background-image:url("img_4e41226cb9e4bb85.png")}
-.ci-city{background-image:url("img_a61f5c5435193acb.png")}
-.ci-hero_molly{background-image:url("img_865f7634dac7f12a.png")}
-.ci-hero_flint{background-image:url("img_bf44d9b71dfd6bc8.png")}
-.ci-hero_alonso{background-image:url("img_55e90e58ac664b3f.png")}
-.ci-hero_jessie{background-image:url("img_699a460d3d5fa188.png")}
-.ci-hero_sergey{background-image:url("img_edec3051651fced9.png")}
-.ci-hero_bahiti{background-image:url("img_dbbb26220a0b0143.png")}
-.ci-hero_patrick{background-image:url("img_9aa68d7df40f49b4.png")}
-.ci-hero_gina{background-image:url("img_03854c8302988da8.png")}
-.ci-hero_philly{background-image:url("img_49858fdaad69f972.png")}
-.ci-hero_charlie{background-image:url("img_50c4818d6c5f34b8.png")}
-.ci-hero_cloris{background-image:url("img_6f3ded3a3760b179.png")}
-.ci-hero_eugene{background-image:url("img_9155822b407596e9.png")}
-.ci-hero_smith{background-image:url("img_fd089d977412372f.png")}
-.ci-hero_seoyoon{background-image:url("img_7e385571d1eaf482.png")}
-.ci-hero_jasser{background-image:url("img_69e1d31ee8a2c9be.png")}
-.ci-hero_zinman{background-image:url("img_8c842199522cba6e.png")}
-.ci-hero_lumak{background-image:url("img_d34877edc8f5c193.png")}
-.ci-hero_linxue{background-image:url("img_c03665945685bdba.png")}
-.ci-hero_natalia{background-image:url("img_59b6ee65b3626c65.png")}
-.ci-hero_jeronimo{background-image:url("img_3f8a8503e29f7116.png")}
-.ci-alliance_war{background-image:url("img_73ad3601099f5cb4.png")}
-.ci-alliance_boxes{background-image:url("img_6fae7bf56eef14ab.png")}
-.ci-alliance_territory{background-image:url("img_7b4f9da505ac9040.png")}
-.ci-alliance_battle{background-image:url("img_1c5a69076be1bc9a.png")}
-.ci-alliance_shop{background-image:url("img_7814da0d14c81889.png")}
-.ci-alliance_tech{background-image:url("img_7f4683cab18e7f1e.png")}
-.ci-alliance_power{background-image:url("img_0f37d8b606e80897.png")}
-.ci-alliance_help{background-image:url("img_2bd3108a657fad9e.png")}
-.ci-resource_tiles{background-image:url("img_35b0f89497c1441d.png")}
-.ci-beacon{background-image:url("img_98b58a7b8872c9fb.png")}
-.ci-pets{background-image:url("img_e2860962fe045e89.png")}
-.ci-mails{background-image:url("img_e3a75fcda4d289a4.png")}
-.ci-arena{background-image:url("img_d9c7de8383071b73.png")}
+.ci-diamond{background-image:url("assets/img_babf41d0e1742c77.webp")}
+.ci-fire_crystal{background-image:url("assets/img_112e54b6724810f7.webp")}
+.ci-hero_exp{background-image:url("assets/img_b7101affa0072b40.webp")}
+.ci-resource_chest{background-image:url("assets/img_0953e4b9b30fb82c.webp")}
+.ci-speedup{background-image:url("assets/img_69d0f9f44a6f9451.webp")}
+.ci-speedup_build{background-image:url("assets/img_32efbe2f6372c16e.webp")}
+.ci-speedup_research{background-image:url("assets/img_62e00f6b51c34c0b.webp")}
+.ci-speedup_training{background-image:url("assets/img_511c7898b3ccdad8.webp")}
+.ci-plans{background-image:url("assets/img_756a46ed03643296.webp")}
+.ci-polish{background-image:url("assets/img_a5c670aa9e9e9b62.webp")}
+.ci-alloy{background-image:url("assets/img_684cfadd5258b649.webp")}
+.ci-essence{background-image:url("assets/img_f75e9ecd9585de61.webp")}
+.ci-mythic_frag{background-image:url("assets/img_97495f482d4b0e66.webp")}
+.ci-rare_frag{background-image:url("assets/img_6b1659b9357b576c.webp")}
+.ci-gear_component{background-image:url("assets/img_d82f60ca98b017ca.webp")}
+.ci-taming_guide{background-image:url("assets/img_71936936d75f4a9e.webp")}
+.ci-energy_potion{background-image:url("assets/img_b0d9b8f5f011b92f.webp")}
+.ci-wild_improved{background-image:url("assets/img_f3482d0f1ecea57f.webp")}
+.ci-wild_normal{background-image:url("assets/img_65bdcc25c010c4dc.webp")}
+.ci-mythic_mastery{background-image:url("assets/img_b9f40cf535c7630d.webp")}
+.ci-great_mastery{background-image:url("assets/img_bbc7f29eb3d70563.webp")}
+.ci-rare_mastery{background-image:url("assets/img_3be7ca1ce6e1e0ca.webp")}
+.ci-mythic_expedition{background-image:url("assets/img_b8ac482442b245c6.webp")}
+.ci-great_expedition{background-image:url("assets/img_2fa7fd1b66dc6eeb.webp")}
+.ci-rare_expedition{background-image:url("assets/img_17bcc0fadd4b7769.webp")}
+.ci-advanced_teleport{background-image:url("assets/img_1dde1c8e1c763eca.webp")}
+.ci-poseidon_horn{background-image:url("assets/img_0e1686b999b02b3d.webp")}
+.ci-event_endless{background-image:url("assets/img_266628f028b1ea5e.webp")}
+.ci-event_bear{background-image:url("assets/img_f476f593b05c4dd0.webp")}
+.ci-event_castle{background-image:url("assets/img_cbcb19d3ac313c96.webp")}
+.ci-event_fort{background-image:url("assets/img_b092dc93f86e67c4.webp")}
+.ci-event_foundry{background-image:url("assets/img_d54e0a1907a1f1d9.webp")}
+.ci-event_arms{background-image:url("assets/img_86277db2c42159fc.webp")}
+.ci-event_championship{background-image:url("assets/img_c570407354ae1e53.webp")}
+.ci-event_calendar{background-image:url("assets/img_b288cf306a0dd637.webp")}
+.ci-event_state_power{background-image:url("assets/img_5e9508e3d1c24c1f.webp")}
+.ci-event_alliance_mobilization{background-image:url("assets/img_483223aef81e3a48.webp")}
+.ci-furnace{background-image:url("assets/img_4e41226cb9e4bb85.webp")}
+.ci-city{background-image:url("assets/img_a61f5c5435193acb.webp")}
+.ci-hero_molly{background-image:url("assets/img_865f7634dac7f12a.webp")}
+.ci-hero_flint{background-image:url("assets/img_bf44d9b71dfd6bc8.webp")}
+.ci-hero_alonso{background-image:url("assets/img_55e90e58ac664b3f.webp")}
+.ci-hero_jessie{background-image:url("assets/img_699a460d3d5fa188.webp")}
+.ci-hero_sergey{background-image:url("assets/img_edec3051651fced9.webp")}
+.ci-hero_bahiti{background-image:url("assets/img_dbbb26220a0b0143.webp")}
+.ci-hero_patrick{background-image:url("assets/img_9aa68d7df40f49b4.webp")}
+.ci-hero_gina{background-image:url("assets/img_03854c8302988da8.webp")}
+.ci-hero_philly{background-image:url("assets/img_49858fdaad69f972.webp")}
+.ci-hero_charlie{background-image:url("assets/img_50c4818d6c5f34b8.webp")}
+.ci-hero_cloris{background-image:url("assets/img_6f3ded3a3760b179.webp")}
+.ci-hero_eugene{background-image:url("assets/img_9155822b407596e9.webp")}
+.ci-hero_smith{background-image:url("assets/img_fd089d977412372f.webp")}
+.ci-hero_seoyoon{background-image:url("assets/img_7e385571d1eaf482.webp")}
+.ci-hero_jasser{background-image:url("assets/img_69e1d31ee8a2c9be.webp")}
+.ci-hero_zinman{background-image:url("assets/img_8c842199522cba6e.webp")}
+.ci-hero_lumak{background-image:url("assets/img_d34877edc8f5c193.webp")}
+.ci-hero_linxue{background-image:url("assets/img_c03665945685bdba.webp")}
+.ci-hero_natalia{background-image:url("assets/img_59b6ee65b3626c65.webp")}
+.ci-hero_jeronimo{background-image:url("assets/img_3f8a8503e29f7116.webp")}
+.ci-alliance_war{background-image:url("assets/img_73ad3601099f5cb4.webp")}
+.ci-alliance_boxes{background-image:url("assets/img_6fae7bf56eef14ab.webp")}
+.ci-alliance_territory{background-image:url("assets/img_7b4f9da505ac9040.webp")}
+.ci-alliance_battle{background-image:url("assets/img_1c5a69076be1bc9a.webp")}
+.ci-alliance_shop{background-image:url("assets/img_7814da0d14c81889.webp")}
+.ci-alliance_tech{background-image:url("assets/img_7f4683cab18e7f1e.webp")}
+.ci-alliance_power{background-image:url("assets/img_0f37d8b606e80897.webp")}
+.ci-alliance_help{background-image:url("assets/img_2bd3108a657fad9e.webp")}
+.ci-resource_tiles{background-image:url("assets/img_35b0f89497c1441d.webp")}
+.ci-beacon{background-image:url("assets/img_98b58a7b8872c9fb.webp")}
+.ci-pets{background-image:url("assets/img_e2860962fe045e89.webp")}
+.ci-mails{background-image:url("assets/img_e3a75fcda4d289a4.webp")}
+.ci-arena{background-image:url("assets/img_d9c7de8383071b73.webp")}
 
-.ci-governor_energy{background-image:url("img_1e90c87d54345013.png")}
+.ci-governor_energy{background-image:url("assets/img_1e90c87d54345013.webp")}
 
 /* === New approved catalog icons 107–123 === */
-.ci-event_wheel_fortune{background-image:url("img_ac4676e1d5adb2c8.png")}
-.ci-event_frostfire{background-image:url("img_3fa509f9913683ba.png")}
-.ci-event_flame_fangs{background-image:url("img_f53c4b0218dec6a9.png")}
-.ci-event_crazy_joe{background-image:url("img_411df62805369be3.png")}
-.ci-event_brothers{background-image:url("img_a1245127bbc84112.png")}
-.ci-mithril{background-image:url("img_d4b051b2c76d4dd7.png")}
-.ci-seal_cyrilla{background-image:url("img_8513f5a0f32b1296.png")}
-.ci-seal_agnes{background-image:url("img_bfa395873d9cf15a.png")}
-.ci-seal_holger{background-image:url("img_12c91ff9f8727d69.png")}
+.ci-event_wheel_fortune{background-image:url("assets/img_ac4676e1d5adb2c8.webp")}
+.ci-event_frostfire{background-image:url("assets/img_3fa509f9913683ba.webp")}
+.ci-event_flame_fangs{background-image:url("assets/img_f53c4b0218dec6a9.webp")}
+.ci-event_crazy_joe{background-image:url("assets/img_411df62805369be3.webp")}
+.ci-event_brothers{background-image:url("assets/img_a1245127bbc84112.webp")}
+.ci-mithril{background-image:url("assets/img_d4b051b2c76d4dd7.webp")}
+.ci-seal_cyrilla{background-image:url("assets/img_8513f5a0f32b1296.webp")}
+.ci-seal_agnes{background-image:url("assets/img_bfa395873d9cf15a.webp")}
+.ci-seal_holger{background-image:url("assets/img_12c91ff9f8727d69.webp")}
 
 /* v171: approved catalog icons — basic resources (98–101). */
-.ci-resource_meat{background-image:url("img_5ba743c9f32f5670.png")}
-.ci-resource_wood{background-image:url("img_684ff2bae8126766.png")}
-.ci-resource_coal{background-image:url("img_c7cc77364770fdba.png")}
-.ci-resource_iron{background-image:url("img_0ce5c99b3399ed34.png")}
+.ci-resource_meat{background-image:url("assets/img_5ba743c9f32f5670.webp")}
+.ci-resource_wood{background-image:url("assets/img_684ff2bae8126766.webp")}
+.ci-resource_coal{background-image:url("assets/img_c7cc77364770fdba.webp")}
+.ci-resource_iron{background-image:url("assets/img_0ce5c99b3399ed34.webp")}
 
 
 
-.ci-strengthening_serum{background-image:url("img_b772143acb1810e3.png")}
+.ci-strengthening_serum{background-image:url("assets/img_b772143acb1810e3.webp")}
 .guide-nav-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0 4px}
 .guide-nav-card{display:flex;align-items:center;gap:8px;min-height:48px;padding:10px 12px;border:1px solid #cddff3;border-radius:14px;background:#f8fbff;color:#173a73;text-decoration:none;font-weight:800;box-shadow:0 5px 14px rgba(29,67,118,.06);transition:transform .15s ease,box-shadow .15s ease}
 .guide-nav-card:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(29,67,118,.10)}
@@ -4787,19 +4787,19 @@ body.is-heroes-route .hero-inner {
 
 /* Only finalized category banners; original owl and page text remain separate. */
 /* Питомцы: Зимняя деревня и дружелюбный овцебык.png */
-body.is-pets-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("img_e3dc0571d069e24d.png") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
+body.is-pets-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("assets/img_e3dc0571d069e24d.webp") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
 body.is-pets-route .hero-inner { visibility:visible !important; }
 /* События: Зимняя экспедиция под северным сиянием.png */
-body.is-events-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("img_5c51535e4e647ea6.png") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
+body.is-events-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("assets/img_5c51535e4e647ea6.webp") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
 body.is-events-route .hero-inner { visibility:visible !important; }
 /* Арена: Зимний аэродром на закате.png */
-body.is-arena-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("img_66051ec3d2c09ff1.png") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
+body.is-arena-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("assets/img_66051ec3d2c09ff1.webp") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
 body.is-arena-route .hero-inner { visibility:visible !important; }
 /* Письма: Зимняя почтовая крепость.png */
-body.is-mails-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("img_21ec1c67d0d828a9.png") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
+body.is-mails-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("assets/img_21ec1c67d0d828a9.webp") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
 body.is-mails-route .hero-inner { visibility:visible !important; }
 /* Лабиринт: Ледяной лабиринт: карта искателей.png */
-body.is-labyrinth-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("img_4af0c697516c3153.png") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
+body.is-labyrinth-route .hero { background-image: linear-gradient(90deg,rgba(17,48,91,.62) 0%,rgba(17,48,91,.40) 26%,rgba(17,48,91,.16) 48%,rgba(17,48,91,.05) 75%,rgba(17,48,91,.10) 100%),url("assets/img_4af0c697516c3153.webp") !important; background-size:cover !important; background-position:center center !important; background-repeat:no-repeat !important; }
 body.is-labyrinth-route .hero-inner { visibility:visible !important; }
 
 
@@ -4854,7 +4854,7 @@ body.is-home-route #uiRouteDescription { display:block !important; }
 body.is-gear-route .hero {
   background-image:
     linear-gradient(90deg, rgba(8,35,66,.76) 0%, rgba(9,39,72,.58) 31%, rgba(9,39,72,.22) 54%, rgba(9,39,72,.06) 72%, rgba(9,39,72,.08) 100%),
-    url("img_2f79410154e13a60.png") !important;
+    url("assets/img_2f79410154e13a60.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -4874,7 +4874,7 @@ body.is-buildings-route .hero {
       rgba(17,48,91,.18) 0%,
       rgba(17,48,91,.08) 72%,
       rgba(17,48,91,.12) 100%),
-    url("img_8a48e3607a257766.png") !important;
+    url("assets/img_8a48e3607a257766.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -4892,7 +4892,7 @@ body.is-buildings-route .hero::before {
 body.is-research-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.18) 0%, rgba(17,48,91,.08) 72%, rgba(17,48,91,.12) 100%),
-    url("img_379deabdbfec29db.png") !important;
+    url("assets/img_379deabdbfec29db.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -4908,7 +4908,7 @@ body.is-research-route .hero-inner{visibility:visible !important;}
 body.is-troops-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.34) 0%, rgba(17,48,91,.14) 46%, rgba(17,48,91,.06) 100%),
-    url("img_c39f375dabb9ee41.png") !important;
+    url("assets/img_c39f375dabb9ee41.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -4927,7 +4927,7 @@ body.is-troops-route .hero::before {
 body.is-alliance-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.34) 0%, rgba(17,48,91,.14) 44%, rgba(17,48,91,.04) 100%),
-    url("img_d1b50207f9b32432.png") !important;
+    url("assets/img_d1b50207f9b32432.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -5549,7 +5549,7 @@ body.is-gear-route .hero::before {
 body.is-resources-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.34) 0%, rgba(17,48,91,.15) 42%, rgba(17,48,91,.06) 100%),
-    url("img_8f7aa27ffe15f286.png") !important;
+    url("assets/img_8f7aa27ffe15f286.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -5568,7 +5568,7 @@ body.is-resources-route .hero::before {
 body.is-experts-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.34) 0%, rgba(17,48,91,.16) 44%, rgba(17,48,91,.06) 100%),
-    url("img_97074e325896ba88.png") !important;
+    url("assets/img_97074e325896ba88.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -5587,7 +5587,7 @@ body.is-experts-route .hero::before {
 body.is-island-route .hero {
   background-image:
     linear-gradient(90deg, rgba(17,48,91,.38) 0%, rgba(17,48,91,.18) 38%, rgba(17,48,91,.06) 64%, rgba(17,48,91,.02) 100%),
-    url("img_7c0124820bdf95d9.png") !important;
+    url("assets/img_7c0124820bdf95d9.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -5667,7 +5667,7 @@ body.v182-bear-active .sova-widget{display:none !important;}
 /* Approved 2026-09-26: governor proportions corrected; boy reads paper.
    Original approved PNG embedded unchanged. */
 body.is-state-positions-route .hero {
- background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("img_5e427493c6396fce.png") !important;
+ background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("assets/img_5e427493c6396fce.webp") !important;
  background-size:cover !important;
  background-position:center center !important;
  background-repeat:no-repeat !important;
@@ -5682,7 +5682,7 @@ body.is-state-positions-route .hero-inner{visibility:visible !important;}
 /* Approved 2026-09-26: governor shows talisman; boy in navy sweater and gray scarf.
    Approved original PNG embedded unchanged. */
 body.is-governor-route .hero {
- background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("img_a3f1d69dfd04dd22.png") !important;
+ background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("assets/img_a3f1d69dfd04dd22.webp") !important;
  background-size:cover !important;
  background-position:center center !important;
  background-repeat:no-repeat !important;
@@ -5697,7 +5697,7 @@ body.is-governor-route .hero-inner{visibility:visible !important;}
 /* Approved 2026-09-26: Cloris, Lumak Bokan, Patrick and boy prepare resources; no weapons.
    Approved original PNG embedded unchanged. */
 body.is-farm-route .hero {
- background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("img_10c3893346a35f1a.png") !important;
+ background-image:linear-gradient(90deg,rgba(17,48,91,.48) 0%,rgba(17,48,91,.24) 42%,rgba(17,48,91,.04) 75%),url("assets/img_10c3893346a35f1a.webp") !important;
  background-size:cover !important;
  background-position:center center !important;
  background-repeat:no-repeat !important;
@@ -5713,7 +5713,7 @@ body.is-farm-route .hero-inner{visibility:visible !important;}
 body.is-arena-route .hero {
   background-image:
     linear-gradient(90deg,rgba(17,48,91,.58) 0%,rgba(17,48,91,.34) 27%,rgba(17,48,91,.10) 50%,rgba(17,48,91,.04) 76%,rgba(17,48,91,.10) 100%),
-    url("img_3f7cd577a357c93b.png") !important;
+    url("assets/img_3f7cd577a357c93b.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -5726,7 +5726,7 @@ body.is-arena-route .hero-inner { visibility:visible !important; }
 body.is-beacon-route .hero {
   background-image:
     linear-gradient(90deg,rgba(17,48,91,.52) 0%,rgba(17,48,91,.30) 26%,rgba(17,48,91,.10) 50%,rgba(17,48,91,.03) 76%,rgba(17,48,91,.08) 100%),
-    url("img_30ea117dd4a3c8d7.png") !important;
+    url("assets/img_30ea117dd4a3c8d7.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -5754,7 +5754,7 @@ body.is-beacon-route .hero-inner{visibility:visible !important;}
 body.is-exploration-route .hero {
   background-image:
     linear-gradient(90deg, rgba(8,35,66,.72) 0%, rgba(8,35,66,.48) 28%, rgba(8,35,66,.16) 52%, rgba(8,35,66,.03) 72%, rgba(8,35,66,.04) 100%),
-    url("img_59f0afb874be10e7.png") !important;
+    url("assets/img_59f0afb874be10e7.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -5772,7 +5772,7 @@ body.is-exploration-route .hero::before {
 body.is-labyrinth-route .hero {
   background-image:
     linear-gradient(90deg, rgba(8,35,66,.70) 0%, rgba(8,35,66,.48) 28%, rgba(8,35,66,.18) 52%, rgba(8,35,66,.04) 74%, rgba(8,35,66,.04) 100%),
-    url("img_fe77f64c6a3aa74e.png") !important;
+    url("assets/img_fe77f64c6a3aa74e.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -6188,7 +6188,7 @@ body.is-state-positions-route .hero #uiRouteDescription{
 
 /* v207: approved header for event page "Охота на медведя" */
 body.is-bear-route .hero {
-  background-image:url("img_f4053b4bd49b720d.png") !important;
+  background-image:url("assets/img_f4053b4bd49b720d.webp") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -6204,7 +6204,7 @@ body.is-bear-route .hero::before {
 
 /* v208: approved header for event page "Безумный Джо" */
 body.is-crazy-joe-route .hero {
-  background-image:url("img_9b1ff30a01c29dda.png") !important;
+  background-image:url("assets/img_9b1ff30a01c29dda.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6220,7 +6220,7 @@ body.is-crazy-joe-route .hero::before {
 
 /* v209: approved Охота на медведя header, tuned for mobile crop */
 body.is-bear-route .hero {
-  background-image:url("img_22767d469133f308.png") !important;
+  background-image:url("assets/img_22767d469133f308.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6245,7 +6245,7 @@ body.is-bear-route .hero .ui-route-copy { display:none !important; }
 
 /* v210: approved event header for Престиж наёмника, mobile-aware */
 body.is-mercenary-prestige-route .hero {
-  background-image:url("img_494e5af9ee1a6e7e.png") !important;
+  background-image:url("assets/img_494e5af9ee1a6e7e.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6269,7 +6269,7 @@ body.is-mercenary-prestige-route .hero .ui-route-copy { display:none !important;
 
 /* v211: approved header for event page "Рудник ледяного огня" */
 body.is-frostfire-mine-route .hero {
-  background-image:url("img_d4f356a62348617b.png") !important;
+  background-image:url("assets/img_d4f356a62348617b.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6293,7 +6293,7 @@ body.is-frostfire-mine-route .hero .ui-route-copy { display:none !important; }
 
 /* v212: approved header for event page "Бесконечное испытание" */
 body.is-endless-trial-route .hero {
-  background-image:url("img_327a7ecd26554bcb.png") !important;
+  background-image:url("assets/img_327a7ecd26554bcb.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6313,7 +6313,7 @@ body.is-endless-trial-route .hero .ui-route-copy { display:none !important; }
 
 /* v213: approved mobile header for event page "Торговый путь в тундре" */
 body.is-tundra-trade-route .hero {
-  background-image:linear-gradient(90deg,rgba(15,44,82,.36) 0%,rgba(15,44,82,.18) 26%,rgba(15,44,82,.08) 56%,rgba(15,44,82,.12) 100%),url("img_4658cb9607ac5b2f.png");
+  background-image:linear-gradient(90deg,rgba(15,44,82,.36) 0%,rgba(15,44,82,.18) 26%,rgba(15,44,82,.08) 56%,rgba(15,44,82,.12) 100%),url("assets/img_4658cb9607ac5b2f.webp");
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6323,7 +6323,7 @@ body.is-tundra-trade-route .hero {
 
 /* v214: approved mobile header for event page "Сражение альянсов" */
 body.is-alliance-showdown-route .hero {
-  background-image:url("img_b9410816bb58fe7a.png");
+  background-image:url("assets/img_b9410816bb58fe7a.webp");
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6341,7 +6341,7 @@ body.is-alliance-showdown-route .hero .ui-route-copy {
 
 /* v215: approved mobile header for event page "Рыбалка" */
 body.is-fishing-route .hero {
-  background-image:url("img_663eac42a1984120.png") !important;
+  background-image:url("assets/img_663eac42a1984120.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6359,7 +6359,7 @@ body.is-fishing-route .hero .ui-route-copy {
 
 /* v216: approved header for event page "Снегоуборщики" */
 body.is-snowplow-route .hero {
-  background-image:url("img_60db18acff7ed344.png") !important;
+  background-image:url("assets/img_60db18acff7ed344.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6377,7 +6377,7 @@ body.is-snowplow-route .hero .ui-route-copy {
 
 /* v217: approved header for event page "Воспоминания о грёзах" */
 body.is-dreams-route .hero {
-  background-image:url("img_f9651370ac9d325d.png") !important;
+  background-image:url("assets/img_f9651370ac9d325d.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6395,7 +6395,7 @@ body.is-dreams-route .hero .ui-route-copy {
 
 /* v218: approved header for event page "Чемпионат альянса" */
 body.is-alliance-championship-route .hero {
-  background-image:url("img_8b01f5860443ac9f.png") !important;
+  background-image:url("assets/img_8b01f5860443ac9f.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6413,7 +6413,7 @@ body.is-alliance-championship-route .hero .ui-route-copy {
 
 /* v219: approved header for event page "Литейная" */
 body.is-foundry-route .hero {
-  background-image:url("img_ddf444d7224b5870.png") !important;
+  background-image:url("assets/img_ddf444d7224b5870.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6431,7 +6431,7 @@ body.is-foundry-route .hero .ui-route-copy {
 
 /* v220: approved header for event page "Битва за замок" */
 body.is-castle-route .hero {
-  background-image:url("img_fb7ecd6419e3fb97.png") !important;
+  background-image:url("assets/img_fb7ecd6419e3fb97.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6449,7 +6449,7 @@ body.is-castle-route .hero .ui-route-copy {
 
 /* v223: approved header for event page "Гонка вооружений" */
 body.is-armament-competition-route .hero {
-  background-image:url("img_50ddce9361de1ed0.png") !important;
+  background-image:url("assets/img_50ddce9361de1ed0.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6467,7 +6467,7 @@ body.is-armament-competition-route .hero .ui-route-copy {
 
 /* v224: approved header for event page "Мобилизация альянса" */
 body.is-alliance-mobilization-route .hero {
-  background-image:url("img_4631502b5e860156.png") !important;
+  background-image:url("assets/img_4631502b5e860156.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6485,7 +6485,7 @@ body.is-alliance-mobilization-route .hero .ui-route-copy {
 
 /* v225: approved header for event page "Зимняя осада" */
 body.is-winter-siege-route .hero {
-  background-image:url("img_e09768c2f29b6624.png") !important;
+  background-image:url("assets/img_e09768c2f29b6624.webp") !important;
   background-position:center center !important;
   background-size:cover !important;
   background-repeat:no-repeat !important;
@@ -6503,7 +6503,7 @@ body.is-winter-siege-route .hero .ui-route-copy {
 
 /* v221: approved header for event page "Подготовка к SvS" */
 body.is-svs-prep-route .hero {
-  background-image:url("img_5821ca746911c7c6.png") !important;
+  background-image:url("assets/img_5821ca746911c7c6.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6524,7 +6524,7 @@ body.is-svs-prep-route .hero .ui-route-copy {
 
 /* v222: approved header for event page "SvS: боевая фаза" */
 body.is-svs-route .hero {
-  background-image:url("img_9cc742a30a7df7e8.png") !important;
+  background-image:url("assets/img_9cc742a30a7df7e8.webp") !important;
   background-size:cover !important;
   background-position:center center !important;
   background-repeat:no-repeat !important;
@@ -6695,7 +6695,7 @@ body.is-svs-route .hero .ui-route-copy {
 <button data-ui-tab="3">Помощник</button>
 <button data-ui-tab="4">Автор</button>
 </div><div class="site-title-strip"><div class="site-title-strip-inner"><div class="site-title-main"><h1>Белая Мгла</h1><div class="site-title-sub">Библиотека гайдов</div></div><div class="site-title-author">Автор - Sova</div></div></div>
-<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.png" loading="lazy" decoding="async"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.png" loading="lazy" decoding="async">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.png" loading="lazy" decoding="async">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.png" loading="lazy" decoding="async">Герои</a><a class="route-link active" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.png" loading="lazy" decoding="async">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.png" loading="lazy" decoding="async">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.png" loading="lazy" decoding="async">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.png" loading="lazy" decoding="async">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.png" loading="lazy" decoding="async">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.png" loading="lazy" decoding="async">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.png" loading="lazy" decoding="async">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.png" loading="lazy" decoding="async">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.png" loading="lazy" decoding="async">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.png" loading="lazy" decoding="async"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
+<div class="nav-wrap"><img alt="Белая Мгла Выживание" class="sidebar-exact-logo" src="assets/img_6dc1ef08d6ab264b.webp" loading="lazy" decoding="async"><nav><a aria-current="page" class="route-link" href="index.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_5aa79ae27faa29b4.webp" loading="lazy" decoding="async">Главная</a><a class="route-link" href="newbie.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_83aba0cd17b4f37b.webp" loading="lazy" decoding="async">Новичкам</a><a class="route-link" href="heroes.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_df28a44cd870579e.webp" loading="lazy" decoding="async">Герои</a><a class="route-link active" href="gear.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_26d001aa476b7102.webp" loading="lazy" decoding="async">Снаряжение</a><a class="route-link" href="buildings.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7278c74016ac1e34.webp" loading="lazy" decoding="async">Здания</a><a class="route-link" href="research.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_27c44c452cf4ea37.webp" loading="lazy" decoding="async">Исследования</a><a class="route-link" href="troops.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_9e31627e6e93fe14.webp" loading="lazy" decoding="async">Войска</a><a class="route-link" href="alliance.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_575f310fa1c74edb.webp" loading="lazy" decoding="async">Альянс</a><a class="route-link route-link-state-positions" href="state-positions.html"><span class="sidebar-color-icon state-position-menu-icon" aria-hidden="true">👑</span><span>Должности на государстве</span></a><a class="route-link" href="resources.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_965c607d421e172a.webp" loading="lazy" decoding="async">Ресурсы</a><a class="route-link" href="experts.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_7b29d9b9a7eeb805.webp" loading="lazy" decoding="async">Эксперты</a><a class="route-link" href="pets.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_f25119f6b5ca7b00.webp" loading="lazy" decoding="async">Питомцы</a><a class="route-link" href="events.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_6bf97ec0736e4b3f.webp" loading="lazy" decoding="async">События</a><a class="route-link" href="other.html"><span aria-hidden="true" class="sidebar-more-icon"></span>Другие гайды</a><a class="route-link" href="island.html"><img alt="" aria-hidden="true" class="sidebar-color-icon" src="assets/img_ab05b174a9640ea2.webp" loading="lazy" decoding="async"><span class="route-link-fallback-icon"></span> Остров</a></nav></div>
 
 <main id="appMain"><div class="route-page active" data-route="gear"><div class="guide-page-v69">
 <div class="guide-hero"><div class="guide-hero-text"><h1>Снаряжение</h1><p>Что усиливать в первую очередь и как не распылять редкие материалы.</p></div></div>
@@ -6764,7 +6764,7 @@ body.is-svs-route .hero .ui-route-copy {
 <div aria-live="polite" class="sova-search-results" id="sovaSearchResults"></div>
 </div>
 </div>
-<button aria-label="Помощник" class="sova-btn" id="sovaBtn"><span class="sova-character"><img alt="Белая сова Sova" class="sova-character-img" decoding="async" draggable="false" id="sovaOwlImg" src="assets/img_3f4e1ca66eb153fe.png" loading="lazy"></span></button>
+<button aria-label="Помощник" class="sova-btn" id="sovaBtn"><span class="sova-character"><img alt="Белая сова Sova" class="sova-character-img" decoding="async" draggable="false" id="sovaOwlImg" src="assets/img_3f4e1ca66eb153fe.webp" loading="lazy"></span></button>
 </div>
 <script>
 (function(){
