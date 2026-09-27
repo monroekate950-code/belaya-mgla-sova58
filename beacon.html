@@ -6942,10 +6942,10 @@ main > .section, main > section, footer{content-visibility:auto;contain-intrinsi
   document.getElementById('mobileSectionsBtn')?.addEventListener('click',function(){setOpen(true);});
   overlay.addEventListener('click',function(){setOpen(false);});
   nav.addEventListener('click',function(e){
-    if(e.target.closest('a') && window.matchMedia('(max-width:820px)').matches) setOpen(false);
+    if(e.target.closest('a') && window.matchMedia('(max-width:1200px), (hover:none) and (pointer:coarse)').matches) setOpen(false);
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape') setOpen(false);});
-  window.addEventListener('resize',function(){if(window.innerWidth>820) setOpen(false);});
+  window.addEventListener('resize',function(){if(window.innerWidth>1200 && !window.matchMedia('(hover:none) and (pointer:coarse)').matches) setOpen(false);});
 })();
 </script>
 <script id="v124-mobile-sections-direct-fix">
