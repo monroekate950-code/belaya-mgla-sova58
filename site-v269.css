@@ -7994,3 +7994,54 @@ body:not(.is-home-route) .hero #uiRouteTitle{
     background:rgba(255,255,255,.94) !important;
   }
 }
+
+
+/* v270: Охота на медведя — примеры троек героев */
+.route-page[data-route="bear"] .bear-example-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+  margin:14px 0 20px;
+}
+.route-page[data-route="bear"] .bear-example-grid-joiner{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+}
+.route-page[data-route="bear"] .bear-example-card{
+  margin:0;
+  border:1px solid #d9e5f5;
+  border-radius:16px;
+  overflow:hidden;
+  background:linear-gradient(145deg,#ffffff,#f3f8ff);
+  box-shadow:0 12px 28px rgba(23,58,115,.08);
+}
+.route-page[data-route="bear"] .bear-example-card img{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#0f3064;
+}
+.route-page[data-route="bear"] .bear-example-card figcaption{
+  padding:12px 14px 14px;
+}
+.route-page[data-route="bear"] .bear-example-card figcaption b,
+.route-page[data-route="bear"] .bear-example-card figcaption span{
+  display:block;
+}
+.route-page[data-route="bear"] .bear-example-card figcaption b{
+  color:#173c79;
+  margin-bottom:4px;
+}
+.route-page[data-route="bear"] .bear-example-card figcaption span{
+  color:#5f7089;
+  line-height:1.45;
+  font-size:14px;
+}
+.route-page[data-route="bear"] .bear-joiner-important{
+  margin-top:12px;
+}
+@media(max-width:900px){
+  .route-page[data-route="bear"] .bear-example-grid,
+  .route-page[data-route="bear"] .bear-example-grid-joiner{
+    grid-template-columns:1fr;
+  }
+}
