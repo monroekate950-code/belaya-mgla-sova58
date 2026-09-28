@@ -8045,3 +8045,16 @@ body:not(.is-home-route) .hero #uiRouteTitle{
     grid-template-columns:1fr;
   }
 }
+
+/* v271: отдельно выделен Джассер среди примеров присоединения */
+.route-page[data-route="bear"] .bear-jasser-example{
+  border:2px solid #d99a20;
+  box-shadow:0 12px 30px rgba(217,154,32,.16);
+}
+.route-page[data-route="bear"] .bear-jasser-example figcaption{
+  background:linear-gradient(145deg,#fffaf0,#fff2cc);
+}
+.route-page[data-route="bear"] .bear-jasser-example figcaption>b{
+  color:#8d5700;
+  font-size:16px;
+}
