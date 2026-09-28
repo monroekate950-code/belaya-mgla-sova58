@@ -8058,3 +8058,51 @@ body:not(.is-home-route) .hero #uiRouteTitle{
   color:#8d5700;
   font-size:16px;
 }
+
+
+/* v272: Охота на медведя — исправление шапки на мобильных */
+.route-page[data-route="bear"] .bear-intro{
+  grid-template-columns:1fr !important;
+}
+.route-page[data-route="bear"] .bear-intro-text{
+  grid-column:auto !important;
+  max-width:none !important;
+}
+@media(max-width:700px){
+  .route-page[data-route="bear"] .bear-intro{
+    grid-template-columns:1fr !important;
+  }
+}
+
+
+/* v273: Охота на медведя — фото примера с Джассером */
+.route-page[data-route="bear"] .bear-jasser-photo{
+  margin:14px 0 18px;
+  border:1px solid #d9e5f5;
+  border-radius:16px;
+  overflow:hidden;
+  background:linear-gradient(145deg,#ffffff,#f3f8ff);
+  box-shadow:0 12px 28px rgba(23,58,115,.08);
+}
+.route-page[data-route="bear"] .bear-jasser-photo img{
+  display:block;
+  width:100%;
+  height:auto;
+  background:#0f3064;
+}
+.route-page[data-route="bear"] .bear-jasser-photo figcaption{
+  padding:12px 14px 14px;
+}
+.route-page[data-route="bear"] .bear-jasser-photo figcaption b,
+.route-page[data-route="bear"] .bear-jasser-photo figcaption span{
+  display:block;
+}
+.route-page[data-route="bear"] .bear-jasser-photo figcaption b{
+  color:#173c79;
+  margin-bottom:4px;
+}
+.route-page[data-route="bear"] .bear-jasser-photo figcaption span{
+  color:#5f7089;
+  line-height:1.45;
+  font-size:14px;
+}
